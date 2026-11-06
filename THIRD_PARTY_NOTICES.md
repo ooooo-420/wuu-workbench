@@ -6,3 +6,30 @@
 - [LoreJob/screener](https://github.com/LoreJob/screener/tree/2da1e9828aa5f41a8dd2bdb29c14b406f4d229cb)（MIT）：阅读 finance-banking。参考领域关注点，不采纳无 JD 支持的学校/机构声誉否决或模型硬门槛。
 - [Karpathy LLM Wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)：架构启发，未复制原文全文。
 以上不是招聘效果背书。私有知识库、本人简历、公司材料与模型凭据不在公开仓库。
+
+## 展示页图标
+`projects/personal/index.html` 内联了 [Phosphor Icons](https://github.com/phosphor-icons/core) 的部分 SVG 路径，按其 MIT 许可保留以下全文：
+
+```text
+MIT License
+
+Copyright (c) 2023 Phosphor Icons
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
