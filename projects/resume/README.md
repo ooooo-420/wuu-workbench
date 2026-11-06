@@ -12,6 +12,6 @@
 
 ## 实现
 
-本机服务使用 Node.js、SQLite 与 Markdown Wiki，复用本机 Codex 登录调用在线模型。文件监听负责同步，结构化输出负责生成，引用校验与版本快照负责追溯；Word/PDF 排版独立处理。
+本机服务使用 Node.js、SQLite 与 Markdown Wiki，复用本机 Claude 与 Codex 登录调用在线模型：写作由 Claude 完成、Codex 备援，岗位检索与作品理解优先 Codex。文件监听负责同步，结构化输出负责生成，引用校验与版本快照负责追溯；Word/PDF 排版独立处理。
 
 此目录仅发布独立展示源代码，所有示例为合成内容。双击 index.html 即可查看示意；原版私有服务与数据未公开。

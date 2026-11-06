@@ -1,1 +1,502 @@
-<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="吴桓的简历工作台项目展示：功能、设计取舍与合成交互演示。"><title>wuu 简历工作台 · 吴桓作品</title><link rel="canonical" href="https://ooooo-420.github.io/wuu-workbench/projects/resume/"><style>*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.8 system-ui,-apple-system,"Microsoft YaHei",sans-serif}body.resume{--bg:#f2f0e8;--ink:#233d33;--line:#c9cec1;--paper:#fffef9;--accent:#3f6652;--muted:#65756a}body.personal{--bg:#151716;--ink:#e9e7de;--line:#3e423c;--paper:#20231f;--accent:#e7b66b;--muted:#a5ab9f}a{color:inherit;text-decoration-thickness:1px;text-underline-offset:5px}button{font:inherit;cursor:pointer;color:inherit;background:transparent;border:1px solid var(--line);padding:8px 20px;border-radius:5px}button:hover,button[aria-selected=true]{background:var(--accent);color:var(--bg)}button:focus-visible,a:focus-visible{outline:3px solid var(--accent);outline-offset:5px}nav,main,footer{max-width:1200px;margin:auto;padding:24px 36px}nav{display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}nav strong{font-size:25px;letter-spacing:-1px}nav div{display:flex;gap:24px;font-size:13px}.eyebrow{font:12px/1.5 ui-monospace,monospace;letter-spacing:2px;color:var(--muted)}h1{font-size:clamp(38px,5.8vw,76px);line-height:1.15;font-weight:580;letter-spacing:-2px;margin:24px 0}h2{font-size:clamp(26px,3vw,38px);font-weight:580;line-height:1.35;margin:10px 0 20px}h3{font-size:19px;margin:10px 0}.hero{display:grid;grid-template-columns:1.1fr 1fr;gap:50px;padding:65px 0 60px;align-items:center}.lead{font-size:18px;max-width:44ch;color:var(--muted)}.links{display:flex;gap:16px;margin-top:28px;flex-wrap:wrap}.cta{padding:10px 20px;background:var(--accent);color:var(--bg);border-radius:5px;text-decoration:none}.quiet{padding:10px 0}.demo{background:var(--paper);border:1px solid var(--line);box-shadow:0 22px 50px #0000000d;border-radius:10px;padding:24px}.demo-head{display:flex;justify-content:space-between;font-size:13px;border-bottom:1px solid var(--line);padding-bottom:14px;margin-bottom:22px}.demo-head span{color:var(--muted)}.tabs{display:flex;gap:8px;flex-wrap:wrap;margin:18px 0}.tabs button{font-size:13px;padding:5px 12px}.demo h3{font-size:23px}.demo p{font-size:14px}.source{border-left:3px solid var(--accent);padding-left:15px;color:var(--muted);margin:20px 0}.demo-result{border-top:1px solid var(--line);padding-top:18px;min-height:150px}.caption{font-size:12px;color:var(--muted);margin-bottom:0}.section{border-top:1px solid var(--line);padding:45px 0}.flow{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;margin-top:28px}.flow article{border-top:2px solid var(--accent);padding-top:12px}.flow p,.copy p{color:var(--muted);font-size:15px}.two{display:grid;grid-template-columns:1fr 1fr;gap:50px}.skill{padding:18px 0;border-bottom:1px solid var(--line)}.skill code{color:var(--accent)}.skill p{margin:4px 0}.day{font:34px ui-monospace,monospace;color:var(--accent)}.task{display:flex;gap:12px;align-items:center;padding:10px 0;border-top:1px solid var(--line)}.task button{font-size:13px;padding:2px 9px}.task.done span{text-decoration:line-through;color:var(--muted)}footer{border-top:1px solid var(--line);font-size:12px;color:var(--muted);display:flex;justify-content:space-between;gap:20px}@media(max-width:760px){nav,main,footer{padding:20px}nav div{gap:12px;font-size:11px}.hero,.two{grid-template-columns:1fr;gap:28px}.hero{padding:40px 0}h1{letter-spacing:-1px}.flow{grid-template-columns:1fr;gap:16px}.demo{padding:20px}.section{padding:32px 0}footer{flex-direction:column}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}</style></head><body class="resume"><nav><strong>wuu.</strong><div><a href="#experience">交互示意</a><a href="#design">设计与实现</a><a href="https://github.com/ooooo-420/wuu-workbench">GitHub ↗</a></div></nav><main><section class="hero"><div><p class="eyebrow">WU HUAN / PERSONAL PROJECT / 01</p><h1>把工作作品，<br>变成有据可查的<br>岗位表达。</h1><p class="lead">围绕真实使用需求设计：先理解作品，再对照岗位，保留具体分析动作；用知识库和版本历史，让下一次修改接着上一次往前走。</p><div class="links"><a class="cta" href="#experience">体验交互示意 ↓</a><a class="quiet" href="https://github.com/ooooo-420/wuu-workbench/tree/main/projects/resume">查看项目说明 ↗</a></div></div><div class="demo" id="experience"><div class="demo-head"><strong>wuu. 简历工作台</strong><span>交互示意 / 合成材料</span></div><p class="eyebrow">01 / 选择岗位，看同一证据如何取舍</p><div class="tabs" role="tablist" aria-label="目标岗位"><button role="tab" aria-selected="true" data-role="PE/VC">PE/VC</button><button role="tab" aria-selected="false" data-role="FA">FA</button><button role="tab" aria-selected="false" data-role="战略分析">战略分析</button></div><div class="source">合成作品：A项目分析报告<br>原文：按区域拆分收入，核对合并范围，比较客户结构，形成业务与风险分析。</div><div class="demo-result" aria-live="polite"><h3 id="demo-title"></h3><p id="demo-copy"></p></div><p class="caption">这是可点击的表达逻辑示意，不调用AI、不生成真实投递文件。</p></div></section><section class="section"><p class="eyebrow">WHY / 解决什么问题</p><h2>简历不应只写“参与研究”。</h2><div class="flow"><article><p class="eyebrow">01</p><h3>作品 → 证据</h3><p>将抽取文字分段分析，保存动作、方法、对象、产出、适用岗位和连续原文引用。</p></article><article><p class="eyebrow">02</p><h3>证据 → 岗位</h3><p>拆解JD，区分直接匹配、可迁移能力与缺口；用STAR组织证据链，不编造结果。</p></article><article><p class="eyebrow">03</p><h3>版本 → 下一次</h3><p>参考同岗位最近版本的框架与选材，再按新JD调整；双语正文和导出样式分别管理。</p></article></div></section><section class="section two" id="design"><div class="copy"><p class="eyebrow">MY CONTRIBUTION / 我的贡献</p><h2>从个人需求，<br>到可持续使用的工具。</h2><p>定义金融与战略类岗位的证据要求、独立编写作品的归属规则、STAR和双语对齐原则；持续用实际修改稿反馈改进选材、检索与版本记忆。</p><p>项目由吴桓提出需求、设计规则并与AI协作实现。代码与文档包含AI辅助产出，不将其表述为全部手工独立开发。</p></div><div class="copy"><p class="eyebrow">HOW / 实现与取舍</p><h3>实现方式</h3><p>本机服务使用 Node.js、SQLite 与 Markdown Wiki，复用本机 Codex 登录调用在线模型。文件监听负责同步，结构化输出负责生成，引用校验与版本快照负责追溯；Word/PDF 排版独立处理。</p><h3>公开展示的边界</h3><p>此页是独立的脱敏展示，不是私人工作台的在线副本。页面示例均为合成内容；不提供真实账户、原始报告或个人日程访问。功能说明基于本机项目，不能据此承诺招聘筛选或任务实际完成。</p></div></section><section class="section two"><div><p class="eyebrow">REUSABLE / 可复用方法</p><h2>把使用经验，写成可导入的技能。</h2><p class="lead">三个 skill 分工协作。名称、方法和导入说明公开，个人资料保留在本机。</p></div><div><article class="skill"><a href="https://github.com/ooooo-420/wuu-workbench/tree/main/skills/jd-resume-local"><code>jd-resume-local ↗</code></a><h3>岗位定制简历</h3><p>拆解JD，将真实经历组织为有来源的中英文简历。</p></article><article class="skill"><a href="https://github.com/ooooo-420/wuu-workbench/tree/main/skills/career-wiki-curator"><code>career-wiki-curator ↗</code></a><h3>职业作品知识库</h3><p>从作品保留具体动作、方法、交付物和责任边界。</p></article><article class="skill"><a href="https://github.com/ooooo-420/wuu-workbench/tree/main/skills/resume-evidence-audit"><code>resume-evidence-audit ↗</code></a><h3>简历证据审查</h3><p>检查引用、金融岗位责任边界、文本结构与表述。</p></article></div></section></main><footer><span>吴桓 · wuu / 需求与产品设计，AI辅助实现</span><span><a href="https://ooooo-420.github.io/wuu-workbench/projects/personal/">另一个工作台 ↗</a>　<a href="https://github.com/ooooo-420/wuu-workbench">项目与技能仓库 ↗</a></span></footer><script>const samples={'PE/VC':['财务与业务核验','核对项目收入的合并范围，按区域拆解业务构成，结合客户结构形成风险分析，供项目讨论使用。'],'FA':['项目材料与比较分析','按区域与客户结构组织业务数据，标注不同口径，形成项目介绍与比较分析材料。'],'战略分析':['业务结构与风险判断','拆解不同区域及客户的收入构成，识别口径差异，整理业务结构与风险判断依据。']};function select(role){document.querySelectorAll('[data-role]').forEach(b=>b.setAttribute('aria-selected',String(b.dataset.role===role)));document.querySelector('#demo-title').textContent=samples[role][0];document.querySelector('#demo-copy').textContent=samples[role][1];}document.querySelectorAll('[data-role]').forEach(b=>b.addEventListener('click',()=>select(b.dataset.role)));select('PE/VC');</script></body></html>
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="description" content="吴桓的简历工作台项目展示：功能、设计取舍与合成交互演示。"><title>wuu 简历工作台 · 吴桓作品</title><link rel="canonical" href="https://ooooo-420.github.io/wuu-workbench/projects/resume/">
+<style>
+/* Layout: compact hero, a demo guide, then a redraw of the real workbench. Outer page keeps the showcase palette; .wb uses public/styles.css tokens from the real app. */
+:root{--bg:#f2f0e8;--ink:#233d33;--line:#c9cec1;--paper:#fffef9;--accent:#3f6652;--on-accent:#fffef9;--muted:#5d6d62;--mono:"Cascadia Mono",ui-monospace,Consolas,monospace;--sans-o:system-ui,-apple-system,"Microsoft YaHei",sans-serif}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.8 var(--sans-o);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+a{color:inherit;text-decoration-thickness:1px;text-underline-offset:5px}
+button,select,input,textarea{font:inherit;color:inherit}
+button{cursor:pointer}
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,summary:focus-visible{outline:2px solid #9a7437;outline-offset:2px}
+nav.top,main.page,footer{max-width:1240px;margin:auto;padding-block:24px;padding-inline:clamp(0px,2vw,20px)}
+nav.top{display:flex;align-items:center;justify-content:space-between;gap:16px;border-bottom:1px solid var(--line)}
+nav.top strong{font-size:25px;letter-spacing:-1px}
+nav.top div{display:flex;gap:24px;font-size:13px;flex-wrap:wrap;justify-content:flex-end}
+.eyebrow-o{font:12px/1.5 var(--mono);letter-spacing:2px;color:var(--muted);margin:0}
+.page h1{font-size:clamp(34px,4.6vw,60px);line-height:1.18;font-weight:580;letter-spacing:-1.5px;margin:18px 0 0;text-wrap:balance}
+.page h2.o{font-size:clamp(26px,3vw,38px);font-weight:580;line-height:1.35;margin:10px 0 20px;text-wrap:balance}
+.hero{display:grid;grid-template-columns:1.25fr 1fr;gap:clamp(24px,5vw,60px);padding:44px 0 36px;align-items:end}
+.hero>*{min-width:0}
+.lead{font-size:17px;max-width:44ch;color:var(--muted);margin:0}
+.links{display:flex;gap:16px;margin-top:20px;flex-wrap:wrap;align-items:center}
+.cta{padding:9px 20px;background:var(--accent);color:var(--on-accent);border-radius:5px;text-decoration:none}
+.quiet{padding:9px 0}
+#experience{container:app/inline-size;scroll-margin-top:16px;padding-bottom:45px}
+.guide{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin-bottom:8px}
+.step-g{display:grid;grid-template-columns:22px minmax(0,1fr);gap:0 10px;text-align:left;background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:10px 12px;line-height:1.45;font-size:14px}
+.step-g:hover{border-color:var(--accent)}
+.step-g i{font:12px/20px var(--mono);font-style:normal;width:20px;height:20px;border:1px solid var(--line);border-radius:50%;text-align:center;grid-row:span 2;color:var(--muted)}
+.step-g small{font-size:12px;color:var(--muted)}
+.step-g.done i{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
+.back{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:9px 14px;margin-bottom:8px;font-size:13px;line-height:1.55}
+.back-label{font:11px/1.5 var(--mono);letter-spacing:1px;color:var(--muted)}
+.fields{display:flex;flex-wrap:wrap;gap:2px 16px;font:12px/1.6 var(--mono);margin-top:2px}
+.fields b{font-weight:400;color:var(--muted)}
+.caption{font-size:12px;color:var(--muted);margin:10px 0 0}
+
+/* Workbench redraw */
+.wb{--bg:#f3f1eb;--surface:#fcfbf8;--sheet:#fffffd;--sunken:#ecebe4;--ink:#1b2620;--ink-2:#46534c;--ink-3:#6c766f;--line:#e2ded3;--line-2:#cfcabd;--moss:#2c4636;--moss-hover:#365640;--moss-deep:#1c2e25;--moss-tint:#e5ebe2;--moss-tint-2:#d6e0d1;--brass:#8a6630;--brass-tint:#f2e9d6;--danger:#9a3b2e;--danger-tint:#f6e7e3;--sans:"Segoe UI Variable Text","Segoe UI","Microsoft YaHei UI","Microsoft YaHei",system-ui,sans-serif;--serif:Georgia,"Noto Serif SC","Source Han Serif SC","Songti SC",serif;
+ color:var(--ink);background:var(--bg);border:1px solid var(--line-2);border-radius:12px;overflow:clip;font:14px/1.6 var(--sans);display:grid;grid-template-columns:196px minmax(0,1fr)}
+.wb h2,.wb h3,.wb h4,.wb p{margin:0}
+.wb button{background:none;border:0;padding:0}
+.wb input,.wb select,.wb textarea{background:var(--sheet);border:1px solid var(--line-2);border-radius:6px;padding:7px 10px;min-width:0}
+.wb input[type=checkbox]{width:15px;height:15px;accent-color:var(--moss);flex:none;margin:3px 0 0;padding:0}
+.wb input[type=color]{padding:2px;height:34px;width:100%}
+.wb textarea{width:100%;resize:vertical;line-height:1.7}
+.ic{width:17px;height:17px;flex:none}
+.side{background:var(--moss-deep);color:#c3cec5;padding:22px 10px 14px;display:flex;flex-direction:column;gap:6px}
+.brand{display:flex;align-items:baseline;gap:8px;padding:0 10px 20px;color:#f4f2ea}
+.brand b{font:italic 400 30px/1 var(--serif);letter-spacing:-.04em}.brand b span{color:#c99b53}
+.brand small{font-size:11px;letter-spacing:.06em;color:#a8b8ac;white-space:nowrap}
+.wb .nav-item{display:flex;align-items:center;gap:10px;width:100%;padding:9px 10px;border-radius:8px;font-size:13px;color:#c3cec5;text-align:left;position:relative}
+.wb .nav-item:hover{background:rgba(255,255,255,.05);color:#fff}
+.wb .nav-item[aria-current=page]{background:rgba(255,255,255,.09);color:#fff;font-weight:600}
+.wb .nav-item[aria-current=page]:before{content:'';position:absolute;left:-10px;top:8px;bottom:8px;width:3px;border-radius:0 3px 3px 0;background:#c99b53}
+.nav-item small{margin-left:auto;font-size:11px;color:#a8b8ac;font-weight:400}
+.side-foot{margin-top:auto;padding:12px 10px 0;border-top:1px solid rgba(255,255,255,.08);font-size:12px;line-height:1.5}
+.side-foot strong{display:block;color:#e6ebe4;font-weight:500}
+.vw{min-width:0;padding:30px 32px 36px;container:vw/inline-size}
+.ph{display:flex;justify-content:space-between;align-items:flex-end;gap:20px;padding-bottom:18px;margin-bottom:20px;border-bottom:1px solid var(--line);flex-wrap:wrap}
+.ph>*{min-width:0}
+.eb{font-size:11px;font-weight:600;letter-spacing:.16em;color:var(--brass);margin-bottom:6px!important}
+.ph h3{font:600 clamp(22px,4cqw,30px)/1.25 var(--serif);letter-spacing:-.015em;text-wrap:balance}
+.lede{margin-top:6px!important;color:var(--ink-2);font-size:13px;max-width:62ch}
+.acts{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.wb .pri,.wb .sec,.wb .dang{display:inline-flex;align-items:center;justify-content:center;gap:7px;min-height:34px;padding:4px 14px;border-radius:8px;font-size:13px;font-weight:600;white-space:nowrap}
+.wb .pri{background:var(--moss);color:#f7f5ee;border:1px solid var(--moss)}.wb .pri:hover{background:var(--moss-hover)}
+.wb .pri.lg{min-height:42px;padding:4px 20px;font-size:14px}
+.wb .sec{background:var(--surface);border:1px solid var(--line-2)}.wb .sec:hover{border-color:var(--moss)}
+.wb .dang{background:var(--danger);color:#fff;border:1px solid var(--danger)}
+.wb .pri:disabled,.wb .dang:disabled{opacity:.45;cursor:not-allowed}
+.wb .tb{color:var(--moss);font-size:12px;font-weight:600;display:inline-flex;align-items:center;gap:5px;text-decoration:underline;text-underline-offset:3px;text-decoration-color:var(--line-2)}
+.wb .tb:hover{text-decoration-color:var(--moss)}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:18px}
+.chip{display:inline-block;padding:1px 7px;border-radius:4px;background:var(--sunken);font-size:11px;font-weight:600;color:var(--ink-2);white-space:nowrap}
+.chip.ac{background:var(--moss-tint-2);color:var(--moss)}.chip.wr{background:var(--brass-tint);color:#6f5125}.chip.bad{background:var(--danger-tint);color:var(--danger)}
+.home-g{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:20px;align-items:start}
+.step{display:grid;grid-template-columns:30px minmax(0,1fr);gap:0 8px;padding-bottom:16px;margin-bottom:16px;border-bottom:1px solid var(--line)}
+.step-no{font:600 12px/24px var(--mono);color:var(--brass)}
+.step h4{font-size:15px;font-weight:600;margin-bottom:8px!important}
+.roles{display:flex;flex-wrap:wrap;gap:6px}
+.wb .rc{border:1px solid var(--line-2);border-radius:6px;padding:4px 12px;font-size:13px}
+.wb .rc:hover{border-color:var(--moss)}
+.wb .rc[aria-pressed=true]{background:var(--moss-tint);border-color:var(--moss);font-weight:700;color:var(--moss)}
+.note{font-size:12px;color:var(--ink-2);margin-top:8px!important}
+.fr{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-bottom:10px}
+.fld{display:grid;gap:3px;font-size:12px;font-weight:600;color:var(--ink-2);min-width:0}
+.fld input,.fld select,.fld textarea{font-weight:400;font-size:13px;color:var(--ink);width:100%}
+.fl{display:flex;justify-content:space-between;gap:8px;align-items:baseline;font-size:12px;font-weight:600;color:var(--ink-2);margin-bottom:3px}
+.tog{display:flex;gap:8px;align-items:flex-start;font-size:13px}
+.disc{margin-top:8px;font-size:13px}
+.disc summary{cursor:pointer;font-weight:600;font-size:13px;padding:3px 0}
+.disc summary span{font-weight:400;color:var(--ink-3);font-size:12px}
+.sc{display:flex;gap:8px;align-items:flex-start;padding:6px 0;border-top:1px solid var(--line);font-size:13px}
+.sc small{display:block;color:var(--ink-3);font-size:11.5px}
+.gf{display:flex;justify-content:space-between;gap:12px;align-items:center;flex-wrap:wrap}
+.gf p{font-size:12px;color:var(--ink-3)}
+.prog{margin-top:10px;font-size:13px;color:var(--moss);font-weight:600}
+.paper{background:var(--sheet);border:1px solid var(--line);box-shadow:0 1px 2px rgba(27,38,32,.05),0 12px 32px -12px rgba(27,38,32,.14);padding:22px 20px;font-size:11.5px;line-height:1.55;min-width:0}
+.paper .pn{font:600 19px/1.2 var(--serif);text-align:center}
+.paper .pc{text-align:center;color:var(--ink-3);font-size:11px;margin-bottom:8px}
+.paper h5{font-size:11.5px;font-weight:700;border-bottom:1px solid var(--line-2);margin:9px 0 4px;padding-bottom:2px}
+.paper p{overflow-wrap:anywhere}
+.rh{display:flex;justify-content:space-between;gap:10px;align-items:flex-start;margin-bottom:10px}
+.rh h4{font-size:15px;font-weight:600}
+.sect{display:flex;justify-content:space-between;align-items:baseline;gap:12px;margin:22px 0 10px}
+.sect h4{font-size:15px;font-weight:600}
+.vl{list-style:none;margin:0;padding:0}
+.vr{display:flex;gap:10px;align-items:center;padding:9px 6px;border-top:1px solid var(--line)}
+.vr:first-child{border-top:0}
+.vr.sel{background:var(--moss-tint)}
+.wb .vo{flex:1;min-width:0;text-align:left;display:grid;gap:1px}
+.vo .t{font-weight:600;font-size:14px}
+.vo .m{font-size:12px;color:var(--ink-3)}
+.vr time{font-size:12px;color:var(--ink-3);font-variant-numeric:tabular-nums;white-space:nowrap}
+.wb .icb{color:var(--danger);display:grid;place-items:center;width:28px;height:28px;border-radius:6px}
+.wb .icb:hover{background:var(--danger-tint)}
+.ltb{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-bottom:10px}
+.seg{display:inline-flex;flex-wrap:wrap;gap:2px;background:var(--sunken);padding:2px;border-radius:8px}
+.wb .seg button{padding:3px 11px;border-radius:6px;font-size:12px;color:var(--ink-2)}
+.wb .seg button[aria-pressed=true],.wb .seg button[aria-selected=true]{background:var(--sheet);color:var(--ink);font-weight:600;box-shadow:0 1px 2px rgba(27,38,32,.12)}
+.bulk{display:flex;justify-content:space-between;gap:10px;align-items:center;flex-wrap:wrap;padding:6px 8px;background:var(--moss-tint);border-radius:8px;margin-bottom:6px;font-size:12px}
+.gl{font-size:12px;color:var(--ink-3);font-weight:600;margin:14px 0 4px!important}
+.src-g{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:20px;align-items:start}
+.dr{display:grid;grid-template-columns:40px minmax(0,1fr);gap:10px;padding:10px 6px;border-top:1px solid var(--line)}
+.dr.sel{background:var(--moss-tint)}
+.fm{font:600 10px/28px var(--mono);height:28px;background:var(--sunken);border-radius:4px;text-align:center;color:var(--ink-2)}
+.dr h4{font-size:13.5px;font-weight:600;overflow-wrap:anywhere}
+.dr p{font-size:12px;color:var(--ink-3)}
+.warn{color:var(--danger)!important;font-size:12px}
+.card pre{white-space:pre-wrap;overflow-wrap:anywhere;font:13px/1.8 "Microsoft YaHei",var(--sans);margin:8px 0 0}
+mark{background:var(--moss-tint-2);color:inherit;padding:1px 2px}
+.tbar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:10px}
+.tbar .mu{font-size:12px;color:var(--ink-3);flex:1;min-width:150px}
+.ed-g{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:20px;align-items:start}
+.ed-p{background:var(--sheet);border:1px solid var(--line);box-shadow:0 1px 2px rgba(27,38,32,.05),0 12px 32px -12px rgba(27,38,32,.14);padding:14px;min-width:0}
+.ed-p textarea{border:0;background:none;font-size:13px;line-height:1.9;padding:4px;min-height:430px}
+.ed-m{display:flex;justify-content:space-between;font-size:11.5px;color:var(--ink-3);border-top:1px solid var(--line);padding-top:6px}
+.rv{font-size:13px;min-width:0}
+.rv>details{border-top:1px solid var(--line);padding:8px 0}
+.rv summary{cursor:pointer;font-weight:600}
+.cnt{display:inline-block;min-width:18px;padding:0 5px;border-radius:9px;background:var(--sunken);font-size:11px;text-align:center}
+.cnt.w{background:var(--brass-tint);color:#6f5125}
+.ckl{display:flex;gap:6px;align-items:center;font-size:12.5px;font-weight:600;color:var(--moss);margin-top:8px!important}
+.ckl.w{color:var(--danger)}
+.mp{padding:8px 0;border-top:1px solid var(--line)}
+.mp h5{font-size:13px;font-weight:600;margin:3px 0 1px}
+.mp p{font-size:12px;color:var(--ink-2)}
+.rv ul{margin:6px 0 0;padding-left:18px;font-size:12.5px}
+.ev{padding:6px 0;border-top:1px solid var(--line);font-size:12.5px}
+.ev blockquote{margin:4px 0;padding:5px 8px;background:var(--moss-tint);border-radius:4px;font-size:12px}
+.pv{margin-bottom:12px}
+.pv-head{display:flex;justify-content:space-between;gap:8px;font-size:12px;color:var(--ink-3);margin-bottom:5px}
+.pp{background:#fff;border:1px solid var(--line-2);padding:18px 20px;color:#1a1a1a;min-width:0}
+.pp .nm{font-size:20px;font-weight:700;margin-bottom:1px}
+.pp .ct{font-size:10.5px;color:#666;margin-bottom:4px}
+.pp .hd{font-weight:700;border-bottom:1.5px solid;margin:8px 0 3px;font-size:12px}
+.pp p{font-size:10.5px;overflow-wrap:anywhere}
+.pp .row{display:flex;justify-content:space-between;gap:8px;font-weight:600}
+.wk-g{display:grid;grid-template-columns:210px minmax(0,1fr);gap:16px;align-items:start}
+.wk-g>*{min-width:0}
+.wb .wp{display:block;width:100%;text-align:left;padding:7px 10px;border-radius:6px;font-size:13px;font-weight:600;overflow-wrap:anywhere}
+.wp small{display:block;font-weight:400;font-size:11px;color:var(--ink-3)}
+.wb .wp.sel{background:var(--moss-tint-2)}
+.strip{font-size:12px;color:var(--ink-2);background:var(--sunken);padding:7px 10px;border-radius:6px;margin-bottom:12px}
+.lk{display:flex;flex-wrap:wrap;gap:5px;margin:6px 0}
+.wb .lk button{font-size:11.5px;background:var(--moss-tint);border-radius:4px;padding:1px 7px;color:var(--moss)}
+.pr3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-bottom:20px}
+.pr3 p{font-size:12.5px;color:var(--ink-2)}
+.pr3 h4{font-size:14px;font-weight:600}
+.ru-g,.st-g{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:20px;align-items:start}
+.rr{display:flex;justify-content:space-between;gap:12px;align-items:flex-start;padding:10px 4px;border-top:1px solid var(--line)}
+.rr>div{min-width:0}
+.rr p{font-size:13px;margin-top:3px!important}
+.rr small{font-size:11.5px;color:var(--ink-3)}
+.sf{display:grid;gap:10px}
+.sl{list-style:none;margin:0;padding:0}
+.ss{display:grid;grid-template-columns:50px minmax(0,1fr);gap:12px;padding:10px 4px;border-top:1px solid var(--line)}
+.ss.sel{background:var(--moss-tint)}
+.ss p{font-size:12.5px;color:var(--ink-2)}
+.ss small{font-size:11.5px;color:var(--ink-3)}
+.ss .rw{display:flex;gap:10px;margin-top:3px}
+.tw{overflow-x:auto}
+.wb table{border-collapse:collapse;width:100%;min-width:520px;font-size:12.5px}
+.wb th{text-align:left;font-size:11px;color:var(--ink-3);padding:4px 6px;border-bottom:1px solid var(--line-2)}
+.wb td{padding:6px;border-bottom:1px solid var(--line);vertical-align:top}
+.setg{display:grid;gap:14px}
+.setg p{font-size:13px;color:var(--ink-2);margin-top:6px!important}
+.setg h4{font-size:15px;font-weight:600}
+.wb dialog{background:var(--surface);color:var(--ink);border:1px solid var(--line-2);border-radius:12px;padding:18px;width:min(440px,calc(100vw - 32px))}
+.wb dialog::backdrop{background:rgba(20,30,24,.45)}
+.wb dialog h3{font-size:16px;font-weight:600;margin-bottom:6px}
+.wb dialog p{font-size:13px;color:var(--ink-2)}
+.da{display:flex;justify-content:flex-end;gap:8px;margin-top:14px}
+.toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(20px + env(safe-area-inset-bottom,0px));z-index:50;background:#1c2e25;color:#f4f2ea;border-radius:8px;padding:8px 14px;font-size:13px;max-width:calc(100vw - 32px);display:none;gap:12px;align-items:center}
+.toast.show{display:flex}
+.toast.err{background:#9a3b2e}
+.toast button{background:none;border:0;color:#e8c98f;font-weight:700;text-decoration:underline;white-space:nowrap}
+.pulse{animation:pulse .9s ease-out}
+@keyframes pulse{0%{background-color:#d6e0d1}100%{background-color:transparent}}
+@container vw (max-width:820px){.home-g,.src-g,.ed-g,.ru-g,.st-g,.wk-g,.pr3{grid-template-columns:minmax(0,1fr)}.ed-p textarea{min-height:320px}}
+@container vw (max-width:430px){.fr{grid-template-columns:minmax(0,1fr)}}
+@container app (max-width:1000px){.guide{grid-template-columns:repeat(2,minmax(0,1fr))}.wb{grid-template-columns:166px minmax(0,1fr)}.vw{padding:22px 18px 26px}}
+@container app (max-width:680px){
+ .guide{grid-template-columns:minmax(0,1fr)}
+ .back{position:static}
+ .wb{display:block}
+ .side{flex-direction:row;overflow-x:auto;padding:8px;gap:2px;scrollbar-width:none}
+ .brand,.side-foot{display:none}
+ .wb .nav-item{width:auto;flex:none;white-space:nowrap;padding:6px 9px;font-size:12.5px;gap:5px}
+ .wb .nav-item .ic{display:none}
+ .wb .nav-item[aria-current=page]:before{display:none}
+ .vw{padding:20px 14px 24px}
+}
+@media(max-height:640px){.back{position:static}}
+.section{border-top:1px solid var(--line);padding:45px 0}
+.section h3.o{font-size:19px;margin:10px 0}
+.flow{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px;margin-top:28px}
+.flow article{border-top:2px solid var(--accent);padding-top:12px}
+.flow p:not(.eyebrow-o),.copy p:not(.eyebrow-o){color:var(--muted);font-size:15px}
+.two{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:50px}
+.two>*{min-width:0}
+.skill{padding:18px 0;border-bottom:1px solid var(--line)}
+.skill code{color:var(--accent);overflow-wrap:anywhere}
+.skill p{margin:4px 0}
+footer{border-top:1px solid var(--line);font-size:12px;color:var(--muted);display:flex;justify-content:space-between;gap:20px}
+@media(max-width:760px){nav.top div{gap:12px;font-size:11px}.hero,.two{grid-template-columns:minmax(0,1fr);gap:28px}.hero{padding:32px 0 24px}.flow{grid-template-columns:minmax(0,1fr);gap:16px}.section{padding:32px 0}footer{flex-direction:column}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.pulse{animation:none}}
+</style></head><body>
+<nav class="top"><strong>wuu.</strong><div><a href="#experience">交互示意</a><a href="#design">设计与实现</a><a href="https://github.com/ooooo-420/wuu-workbench">GitHub ↗</a></div></nav>
+<main class="page">
+<section class="hero"><div><p class="eyebrow-o">WU HUAN / PERSONAL PROJECT / 01</p><h1>把工作作品，<br>变成有据可查的<br>岗位表达。</h1></div><div><p class="lead">围绕真实使用需求设计：先理解作品，再对照岗位，保留具体分析动作；用知识库和版本历史，让下一次修改接着上一次往前走。</p><div class="links"><a class="cta" href="#experience">体验交互示意 ↓</a><a class="quiet" href="https://github.com/ooooo-420/wuu-workbench/tree/main/projects/resume">查看项目说明 ↗</a></div></div></section>
+<section id="experience" aria-label="简历工作台交互示意">
+ <div class="guide" id="guide"></div>
+ <div class="back" id="backstage"></div>
+ <div class="wb" id="wb">
+  <aside class="side" aria-label="主导航"><div class="brand"><b>wuu<span>.</span></b><small>简历工作台</small></div><div id="nav" style="display:contents"></div><div class="side-foot"><strong>示例候选人</strong>合成资料，不连接本机服务</div></aside>
+  <div class="vw" id="view"></div>
+  <dialog id="dlg" aria-labelledby="dlg-t"><h3 id="dlg-t"></h3><p id="dlg-b"></p><div class="da"><button class="sec" data-act="dlgno">取消</button><button class="dang" data-act="dlgok">删除</button></div></dialog>
+ </div>
+ <p class="caption">界面按真实工作台的模块、字段和规则重绘，所有人物、公司、作品和岗位都是合成内容，不是截图。这里不调用模型：匹配用关键词计算，真实工作台由模型判断。只操作当前页面，不保存、不生成文件。上方的“幕后”栏是展示专用，真实工作台没有。</p>
+ <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</section>
+<section class="section"><p class="eyebrow-o">WHY / 解决什么问题</p><h2 class="o">简历不应只写“参与研究”。</h2><div class="flow"><article><p class="eyebrow-o">01</p><h3 class="o">作品 → 证据</h3><p>将抽取文字分段分析，保存动作、方法、对象、产出、适用岗位和连续原文引用。</p></article><article><p class="eyebrow-o">02</p><h3 class="o">证据 → 岗位</h3><p>拆解JD，区分直接匹配、可迁移能力与缺口；用STAR组织证据链，不编造结果。</p></article><article><p class="eyebrow-o">03</p><h3 class="o">版本 → 下一次</h3><p>参考同岗位最近版本的框架与选材，再按新JD调整；双语正文和导出样式分别管理。</p></article></div></section>
+<section class="section two" id="design"><div class="copy"><p class="eyebrow-o">MY CONTRIBUTION / 我的贡献</p><h2 class="o">从个人需求，<br>到可持续使用的工具。</h2><p>定义金融与战略类岗位的证据要求、独立编写作品的归属规则、STAR和双语对齐原则；持续用实际修改稿反馈改进选材、检索与版本记忆。</p><p>项目由吴桓提出需求、设计规则并与AI协作实现。代码与文档包含AI辅助产出，不将其表述为全部手工独立开发。</p></div><div class="copy"><p class="eyebrow-o">HOW / 实现与取舍</p><h3 class="o">实现方式</h3><p>本机服务使用 Node.js、SQLite 与 Markdown Wiki，复用本机 Claude 与 Codex 登录调用在线模型：写作由 Claude 完成、Codex 备援，岗位检索与作品理解优先 Codex。文件监听负责同步，结构化输出负责生成，引用校验与版本快照负责追溯；Word/PDF 排版独立处理。</p><h3 class="o">公开展示的边界</h3><p>此页是独立的脱敏展示，不是私人工作台的在线副本。页面示例均为合成内容；不提供真实账户、原始报告或个人日程访问。功能说明基于本机项目，不能据此承诺招聘筛选或任务实际完成。</p></div></section>
+<section class="section two"><div><p class="eyebrow-o">REUSABLE / 可复用方法</p><h2 class="o">把使用经验，写成可导入的技能。</h2><p class="lead">三个 skill 分工协作。名称、方法和导入说明公开，个人资料保留在本机。</p></div><div><article class="skill"><a href="https://github.com/ooooo-420/wuu-workbench/tree/main/skills/jd-resume-local"><code>jd-resume-local ↗</code></a><h3 class="o">岗位定制简历</h3><p>拆解JD，将真实经历组织为有来源的中英文简历。</p></article><article class="skill"><a href="https://github.com/ooooo-420/wuu-workbench/tree/main/skills/career-wiki-curator"><code>career-wiki-curator ↗</code></a><h3 class="o">职业作品知识库</h3><p>从作品保留具体动作、方法、交付物和责任边界。</p></article><article class="skill"><a href="https://github.com/ooooo-420/wuu-workbench/tree/main/skills/resume-evidence-audit"><code>resume-evidence-audit ↗</code></a><h3 class="o">简历证据审查</h3><p>检查引用、金融岗位责任边界、文本结构与表述。</p></article></div></section>
+</main>
+<footer><span>吴桓 · wuu / 需求与产品设计，AI辅助实现</span><span><a href="https://ooooo-420.github.io/wuu-workbench/projects/personal/">另一个工作台 ↗</a>　<a href="https://github.com/ooooo-420/wuu-workbench">项目与技能仓库 ↗</a></span></footer>
+<script>
+(function(){
+var $=function(s){return document.querySelector(s)},$$=function(s){return[].slice.call(document.querySelectorAll(s))};
+function h(v){return String(v==null?'':v).replace(/[&<>"']/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})}
+var ICONS={home:'M3 10 12 3l9 7v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1Z M9 21v-8h6v8',file:'M6 3h8l4 4v14H6Z M14 3v5h4 M9 12h6 M9 16h6',history:'M3 11a9 9 0 1 1 2 7 M3 4v7h7 M12 7v5l3 2',rules:'M4 6h16 M4 12h10 M4 18h7',settings:'M12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8 M12 2v3 M12 19v3 M2 12h3 M19 12h3 M5 5l2 2 M17 17l2 2 M5 19l2-2 M17 7l2-2',arrow:'M5 12h14 M13 6l6 6-6 6',check:'m5 12 4 4L19 6',trash:'M4 7h16 M9 7V4h6v3 M6 7l1 13h10l1-13 M10 11v6 M14 11v6',book:'M4 4h7a3 3 0 0 1 3 3v13a2 2 0 0 0-2-2H4Z M20 4h-4a2 2 0 0 0-2 2 M20 4v14h-6',palette:'M12 3a9 9 0 1 0 0 18c1 0 1.5-.8 1.5-1.6 0-1-.8-1.4-.8-2.4 0-1 .8-1.6 1.8-1.6H17a4 4 0 0 0 4-4c0-4.6-4-8.4-9-8.4',search:'M10 3a7 7 0 1 0 0 14 7 7 0 0 0 0-14 M15 15l6 6'};
+function ic(n){return'<svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'+ICONS[n].split(' M').map(function(d,i){return'<path d="'+(i?'M':'')+d+'"/>'}).join('')+'</svg>'}
+function A(act,id,arg){return' data-act="'+act+'"'+(id!=null?' data-id="'+h(id)+'"':'')+(arg!=null?' data-arg="'+h(arg)+'"':'')+' data-fk="'+h(act+'|'+id+'|'+arg)+'"'}
+
+/* Synthetic material only. Every person, company and figure below is invented for this demo. */
+var FAMILIES=['PE/VC','FA','投行','战略分析','战略投资','管培生'];
+var KEYS=['财务','审计','口径','股权','估值','行业','市场','竞争','策略','客户','现金流','成本','风险','数据','预测','收入']; /* keyword list from server/work-analysis.mjs */
+var SOURCES=[
+ {id:'src-cv',name:'示例简历_基线.pdf',ext:'.pdf',kind:'简历',level:'E2',pages:1,wiki:true,text:'示例候选人\n教育背景\n示例大学 金融学 本科 2023.09 — 2027.06\n主修课程：公司金融、财务报表分析、投资学\n实习经历\n示例投资机构 A 投资部实习生 2026.03 — 2026.06\n协助整理行业公开资料，参与被投企业财务数据整理。\n示例会计师事务所 B 审计实习生 2025.07 — 2025.08\n核对存货与收入明细，编制往来款函证底稿。\n技能\nExcel、财务建模、英语 CET-6'},
+ {id:'src-sector',name:'示例行业研究报告.docx',ext:'.docx',kind:'作品',level:'E3 · 作者声明 E2',pages:18,wiki:true,text:'一、收入结构\n按华东、华南、海外三个区域拆分示例公司近三年收入，计算各区域同比增速，发现海外收入增速高于国内，但毛利率更低。\n二、竞争格局\n比较五家可比公司的客户集中度，前五大客户收入占比差异明显，集中度最高的公司议价能力偏弱。\n据行业协会统计，该细分市场近三年规模年均增长约 12%。\n三、后续工作\n建议后续访谈主要经销商，核实渠道库存水平。'},
+ {id:'src-model',name:'示例财务复盘.xlsx',ext:'.xlsx',kind:'作品',level:'E3 · 作者声明 E2',pages:4,wiki:true,text:'现金流复盘\n将净利润调节为经营现金流，定位应收账款增长是现金流低于利润的主要原因。\n口径说明\n按同一收入确认口径调整两期数据后，重新计算毛利率并标注口径差异。'},
+ {id:'src-course',name:'示例课程估值作业.pdf',ext:'.pdf',kind:'作品',level:'E1 · 学习经历',pages:9,wiki:true,text:'估值作业\n用可比公司法和 DCF 对示例公司估值，并对折现率和永续增长率做敏感性分析。'},
+ {id:'src-scan',name:'示例底稿扫描件.docx',ext:'.docx',kind:'作品',level:'不可读',pages:6,wiki:true,text:'',warning:'只有少量文字字符和图片，需要 OCR 或提供文字版，不作为已读证据。'},
+ {id:'src-third',name:'第三方行业研报.pdf',ext:'.pdf',kind:'研究材料',level:'原始材料·贡献待确认',pages:32,wiki:false,text:'该细分市场竞争格局分散，头部企业份额合计不足三成。'}
+];
+var ALL=['PE/VC','FA','投行','战略分析','战略投资','管培生'];
+var CARDS=[
+ {id:'c-region',sourceId:'src-sector',boundary:'已完成分析',roles:['PE/VC','FA','投行','战略分析','战略投资','管培生'],tags:['行业','收入','数据','市场'],kind:'行业',action:'拆分区域收入并计算同比',method:'按区域拆分、同比比较',object:'示例公司近三年收入',output:'行业研究报告收入结构章节',finding:'海外增速高于国内，但毛利率更低',quote:'按华东、华南、海外三个区域拆分示例公司近三年收入，计算各区域同比增速，发现海外收入增速高于国内，但毛利率更低。',zh:'按华东、华南、海外拆分示例公司近三年收入并计算同比，发现海外增速高于国内但毛利率更低',en:'Split three years of revenue across East China, South China and overseas and calculated growth by region, finding faster overseas growth at a lower gross margin'},
+ {id:'c-customer',sourceId:'src-sector',boundary:'已完成分析',roles:['PE/VC','FA','战略分析','战略投资'],tags:['竞争','客户','风险','行业','市场'],kind:'风险',action:'比较可比公司客户集中度',method:'可比公司对比',object:'五家可比公司',output:'行业研究报告竞争格局章节',finding:'集中度最高的公司议价能力偏弱',quote:'比较五家可比公司的客户集中度，前五大客户收入占比差异明显，集中度最高的公司议价能力偏弱。',zh:'比较五家可比公司的客户集中度，判断集中度最高的公司议价能力偏弱',en:'Compared customer concentration across five peers and judged that the most concentrated company had weaker bargaining power'},
+ {id:'c-cash',sourceId:'src-model',boundary:'已完成分析',roles:['PE/VC','FA','投行','战略投资'],tags:['财务','现金流','风险'],kind:'财务',action:'把净利润调节为经营现金流',method:'间接法调节',object:'示例公司利润与现金流',output:'财务复盘表',finding:'应收账款增长是现金流低于利润的主要原因',quote:'将净利润调节为经营现金流，定位应收账款增长是现金流低于利润的主要原因。',zh:'将净利润调节为经营现金流，定位应收账款增长是现金流低于利润的主要原因',en:'Reconciled net profit to operating cash flow and identified receivables growth as the main reason cash flow trailed profit'},
+ {id:'c-basis',sourceId:'src-model',boundary:'已完成分析',roles:['PE/VC','FA','投行','管培生'],tags:['财务','口径','收入','数据','成本'],kind:'核验',action:'统一口径后重算毛利率',method:'口径调整',object:'两期财务数据',output:'财务复盘表口径说明',finding:'标注了两期数据的口径差异',quote:'按同一收入确认口径调整两期数据后，重新计算毛利率并标注口径差异。',zh:'按同一收入确认口径调整两期数据，重新计算毛利率并标注口径差异',en:'Restated two periods on one revenue recognition basis, recalculated gross margin and flagged the differences'},
+ {id:'c-audit',sourceId:'src-cv',boundary:'已完成分析',roles:['FA','投行','管培生'],tags:['审计','财务','收入'],kind:'核验',org:'示例会计师事务所 B',orgEn:'Sample Accounting Firm B',title:'审计实习生',titleEn:'Audit Intern',date:'2025.07 — 2025.08',action:'核对存货与收入明细',method:'明细核对',object:'存货与收入',output:'往来款函证底稿',finding:'',quote:'核对存货与收入明细，编制往来款函证底稿。',zh:'核对存货与收入明细，编制往来款函证底稿',en:'Checked inventory and revenue details and prepared confirmation working papers'},
+ {id:'c-intern',sourceId:'src-cv',boundary:'已完成分析',roles:ALL,tags:['行业','财务','数据'],kind:'行业',org:'示例投资机构 A',orgEn:'Sample Investment Firm A',title:'投资部实习生',titleEn:'Investment Intern',date:'2026.03 — 2026.06',action:'整理行业公开资料和财务数据',method:'资料整理',object:'行业公开资料、被投企业财务数据',output:'内部资料',finding:'',quote:'协助整理行业公开资料，参与被投企业财务数据整理。',zh:'协助整理行业公开资料，参与被投企业财务数据整理',zhDirect:'整理行业公开资料和被投企业财务数据',en:'Assisted with public industry research and portfolio financial data',enDirect:'Organized public industry research and portfolio financial data'},
+ {id:'c-valuation',sourceId:'src-course',boundary:'已完成分析',learning:true,roles:['PE/VC','FA','投行','战略投资','战略分析'],tags:['估值','预测','股权'],kind:'估值',action:'用可比公司法和 DCF 估值',method:'可比公司法、DCF、敏感性分析',object:'示例公司',output:'课程作业',finding:'',quote:'用可比公司法和 DCF 对示例公司估值，并对折现率和永续增长率做敏感性分析。',zh:'课程作业：用可比公司法和 DCF 估值，并对折现率和永续增长率做敏感性分析',en:'Coursework: valued a sample company with trading comparables and DCF, with sensitivity analysis on discount and terminal growth rates'},
+ {id:'c-followup',sourceId:'src-sector',boundary:'建议后续工作',roles:ALL,tags:['客户','风险'],kind:'风险',action:'访谈主要经销商',method:'访谈',object:'渠道库存',output:'',finding:'',quote:'建议后续访谈主要经销商，核实渠道库存水平。',zh:'',en:''},
+ {id:'c-assoc',sourceId:'src-sector',boundary:'第三方事实',roles:ALL,tags:['市场','行业'],kind:'行业',action:'行业协会的市场规模统计',method:'',object:'细分市场规模',output:'',finding:'',quote:'据行业协会统计，该细分市场近三年规模年均增长约 12%。',zh:'',en:''},
+ {id:'c-third',sourceId:'src-third',boundary:'第三方事实',roles:ALL,tags:['竞争','市场'],kind:'行业',action:'第三方研报的竞争格局判断',method:'',object:'细分市场',output:'',finding:'',quote:'该细分市场竞争格局分散，头部企业份额合计不足三成。',zh:'',en:''}
+];
+var JD={
+ 'PE/VC':{company:'示例资本',role:'股权投资实习生',city:'上海',jd:'负责行业研究与市场空间分析\n参与标的财务分析与风险核查\n搭建估值模型，支持投资判断\n独立完成过项目交割'},
+ 'FA':{company:'示例财务顾问',role:'FA 分析师实习生',city:'北京',jd:'比较客户结构与竞争格局，形成项目材料\n分析收入和财务数据\n有路演材料撰写经验'},
+ '投行':{company:'示例证券',role:'投行部实习生',city:'上海',jd:'核查财务与审计资料\n统一收入和成本口径\n搭建估值模型\n有上市项目承做经历'},
+ '战略分析':{company:'示例互联网公司',role:'战略分析实习生',city:'杭州',jd:'开展行业与竞争分析\n拆解业务收入结构\n搭建预测模型\n主导过跨部门项目'},
+ '战略投资':{company:'示例集团',role:'战略投资实习生',city:'深圳',jd:'研究市场机会\n评估标的财务与风险\n做估值分析\n有投后管理经验'},
+ '管培生':{company:'示例企业',role:'管理培训生',city:'上海',jd:'用数据分析业务问题\n理解收入和成本结构\n有跨部门轮岗协作经验'}
+};
+var LABEL={inv:{财务:['财务核验','Financial review'],行业:['行业判断','Sector view'],风险:['风险识别','Risk assessment'],估值:['估值','Valuation'],核验:['口径核验','Basis check']},
+ bank:{财务:['财务分析','Financial analysis'],行业:['行业分析','Industry analysis'],风险:['风险提示','Risk flags'],估值:['估值','Valuation'],核验:['底稿与口径','Records and basis']},
+ strat:{财务:['经营分析','Operating analysis'],行业:['业务结构','Business structure'],风险:['竞争判断','Competitive view'],估值:['模型分析','Modeling'],核验:['数据口径','Data basis']},
+ mgmt:{财务:['经营数据','Business data'],行业:['业务理解','Business insight'],风险:['问题识别','Problem spotting'],估值:['分析方法','Analysis'],核验:['数据核对','Data checks']}};
+var CLUSTER={'PE/VC':'inv','战略投资':'inv','FA':'bank','投行':'bank','战略分析':'strat','管培生':'mgmt'};
+var ROUTES=[['生成定制简历','Claude · opus','Codex','事实纪律与中英文写作要求最高，使用最强写作模型'],['回传修改学习','Claude · sonnet','Codex','比较修改稿、分辨事实与表达偏好'],['整理个人 Wiki','Claude · sonnet','Codex','长文整理并保留方法与责任边界'],['查找公开岗位','Codex','Claude','Codex 联网检索已验证；不携带个人资料'],['作品自动理解','Codex','Claude','后台批量分段阅读；优先 Codex，Codex 额度暂停时由 Claude 接手']];
+var PREF_DIRECT='少用“协助、参与”，直接写有依据的本人动作';
+var S,seq=1;
+function nid(p){return p+'-'+(seq++)}
+function src(id){return SOURCES.filter(function(s){return s.id===id})[0]}
+function strip(t){return String(t).replace(/\s/g,'')}
+function now(){return new Date().toISOString()}
+function fmt(d){return new Date(d).toLocaleString('zh-CN',{month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit'})}
+function fmtDay(d){var a=new Date(d),t=new Date(),n=Math.round((new Date(t.toDateString())-new Date(a.toDateString()))/864e5);return n===0?'今天':n===1?'昨天':a.toLocaleDateString('zh-CN',{month:'long',day:'numeric'})}
+function scopeOf(f){var ids={};SOURCES.forEach(function(s){if(f.useWiki&&s.wiki)ids[s.id]=1});f.sourceIds.forEach(function(i){ids[i]=1});return SOURCES.filter(function(s){return ids[s.id]})}
+function reqLines(jd){return String(jd||'').split(/\r?\n/).map(function(x){return x.replace(/^[\s•●\-\d.、]+/,'').trim()}).filter(Boolean).slice(0,10)}
+function activeRules(fam,rules){return rules.filter(function(r){return r.status==='active'&&(r.scope==='all'||r.scope===fam)})}
+
+/* Same checks as validateResult in server/core.mjs: each quote must be locatable in its source. */
+function validate(evidence,sources){var map={},errs=[];sources.forEach(function(s){map[s.id]=strip(s.text)});
+ evidence.forEach(function(e){if(!(e.sourceId in map))errs.push('未知证据来源：'+e.sourceId);else if(!e.quote||map[e.sourceId].indexOf(strip(e.quote))<0)errs.push('原文摘录无法定位：'+e.claim)});
+ if(!evidence.length)errs.push('没有可追溯证据');return errs}
+
+function compose(f,rules){
+ var scope=scopeOf(f),readable=scope.filter(function(s){return s.text.trim()}),skipped=scope.filter(function(s){return!s.text.trim()}),ids={};readable.forEach(function(s){ids[s.id]=1});
+ var inScope=CARDS.filter(function(c){return ids[c.sourceId]}),done=inScope.filter(function(c){return c.boundary==='已完成分析'}),held=inScope.filter(function(c){return c.boundary!=='已完成分析'});
+ var ar=activeRules(f.family,rules),q=[f.family,f.role,f.jd,f.notes].concat(ar.map(function(r){return r.text})).join(' '),keys=KEYS.filter(function(k){return q.indexOf(k)>=0});
+ var score=function(c){return(c.learning?0:100)+keys.filter(function(k){return c.tags.indexOf(k)>=0}).length};
+ var inFamily=done.filter(function(c){return c.roles.indexOf(f.family)>=0}).sort(function(a,b){return score(b)-score(a)}),mapped=[];
+ var direct=ar.some(function(r){return r.text===PREF_DIRECT}),cl=LABEL[CLUSTER[f.family]];
+ var bullet=function(c,l){var i=l==='zh'?0:1,t=l==='zh'?(direct&&c.zhDirect||c.zh):(direct&&c.enDirect||c.en);return'• '+cl[c.kind][i]+(l==='zh'?'：':': ')+t};
+ var mark=function(c){if(mapped.indexOf(c)<0)mapped.push(c);return c};
+ var mapping=reqLines(f.jd).map(function(r){var t=KEYS.filter(function(k){return r.indexOf(k)>=0}),hit=done.filter(function(c){return c.tags.some(function(k){return t.indexOf(k)>=0})}).sort(function(a,b){return score(b)-score(a)});
+  if(!t.length||!hit.length)return{requirement:r,match:'缺口',reason:'所选资料里没有对应证据，不写入正文。'};
+  var pr=hit.filter(function(c){return c.roles.indexOf(f.family)>=0&&!c.learning})[0];if(pr){mark(pr);return{requirement:r,match:'直接匹配',reason:pr.action+'（'+src(pr.sourceId).name+'）'}}
+  var le=hit.filter(function(c){return c.learning})[0];if(le){mark(le);return{requirement:r,match:'学习经历',reason:le.action+'，只能按课程作业表述。'}}
+  mark(hit[0]);return{requirement:r,match:'可迁移',reason:hit[0].action+'，可迁移但不是同类职责。'}});
+ var used=mapped.concat(inFamily.filter(function(c){return mapped.indexOf(c)<0})).slice(0,5);
+ var gaps=mapping.filter(function(m){return m.match==='缺口'}).map(function(m){return'JD 要求“'+m.requirement+'”没有对应证据，未写入正文'});
+ if(!reqLines(f.jd).length)gaps.push('未提供 JD，本稿是岗位类别版');
+ skipped.forEach(function(s){gaps.push('已跳过不可读资料：'+s.name+'，未把未读取的内容当作事实')});
+ held.forEach(function(c){gaps.push(c.boundary==='建议后续工作'?'“'+c.action+'”只是报告里的建议，没有写成已完成的工作':'“'+c.action+'”是第三方事实，没有写成本人成果')});
+ ar.filter(function(r){return r.kind==='explicit'}).forEach(function(r){if(!KEYS.some(function(k){return r.text.indexOf(k)>=0&&used.some(function(c){return c.tags.indexOf(k)>=0})}))gaps.push('未落实的具体要求：“'+r.text+'”。缺少可支持的本人事实，需要确认后才能写入')});
+ var cv=!!ids['src-cv'];if(!cv)gaps.push('未纳入简历基线，教育背景和联系方式需要补充');
+ var cvCards=used.filter(function(c){return c.org}),work=used.filter(function(c){return!c.org});
+ var build=function(l){var z=l==='zh',o=[z?'示例候选人':'Sample Candidate',z?'电话与邮箱在导出时于本机合并':'Contact details merged locally on export'];
+  if(cv)o.push(z?'教育背景':'EDUCATION',z?'示例大学 金融学 本科':'Sample University, B.A. in Finance','2023.09 — 2027.06');
+  if(cvCards.length){o.push(z?'实习经历':'EXPERIENCE');cvCards.forEach(function(c){o.push((z?c.org+' '+c.title:c.orgEn+', '+c.titleEn),c.date,bullet(c,l))})}
+  if(work.length){o.push(z?'项目经历':'PROJECTS');var seen={};work.forEach(function(c){if(!seen[c.sourceId]){seen[c.sourceId]=1;o.push(z?src(c.sourceId).name.replace(/^示例|\..+$/g,''):({'src-sector':'Sector research report','src-model':'Financial review model','src-course':'Valuation coursework'}[c.sourceId]))}o.push(bullet(c,l))})}
+  if(cv)o.push(z?'技能':'SKILLS',z?'Excel、财务建模、英语 CET-6':'Excel, financial modeling, English (CET-6)');return o.join('\n')};
+ var evidence=used.map(function(c){return{claim:c.action,sourceId:c.sourceId,quote:c.quote}}),errs=validate(evidence,readable),count=function(k){return mapping.filter(function(m){return m.match===k}).length};
+ return{ok:used.length>0,zh:f.language!=='en'?build('zh'):'',en:f.language!=='zh'?build('en'):'',evidence:evidence,mapping:mapping,gaps:gaps,sourceErrors:errs,summary:f.family+' 方向：选用 '+used.length+' 条证据；对照 JD 直接匹配 '+count('直接匹配')+' 项、可迁移 '+count('可迁移')+' 项、学习经历 '+count('学习经历')+' 项、缺口 '+count('缺口')+' 项。',usedIds:used.map(function(c){return c.id}),held:held.length,skipped:skipped.length,available:done.length,scope:readable.length};
+}
+function mkVersion(f,rules,extra){var r=compose(f,rules);return Object.assign({id:nid('v'),title:(f.company||'未填公司')+' · '+f.role,family:f.family,language:f.language,status:'draft',engine:'示例结果',createdAt:now(),zh:r.zh,en:r.en,summary:r.summary,mapping:r.mapping,evidence:r.evidence,gaps:r.gaps,checks:{sourceErrors:r.sourceErrors,semantic:'示例未做模型审核',layout:'未导出验证'},alignment:f.language==='both'?'中英文来自同一组证据，入选内容一致。':'本次只生成一种语言。',usedIds:r.usedIds},extra||{})}
+function seed(){var base=JD['PE/VC'],f={family:'PE/VC',company:base.company,role:base.role,city:base.city,language:'both',jd:base.jd,useWiki:true,sourceIds:[],notes:'',jdTouched:false};
+ var rules=[{id:'r-1',text:'投资岗位优先突出风险核查和财务分析，避免泛泛的协助描述。',reason:'',scope:'PE/VC',status:'active',kind:'explicit'},{id:'r-2',text:'经历要点先写动作和方法，再写用途。',reason:'一份修改稿里把用途从句首移到了句尾',scope:'FA',status:'candidate',kind:'observed',sampleKeys:['sample-old']}];
+ var prior=mkVersion(Object.assign({},JD['FA'],{family:'FA',language:'zh',useWiki:true,sourceIds:[],notes:''}),rules,{createdAt:new Date(Date.now()-864e5).toISOString(),status:'edited'});
+ return{route:'home',form:f,versions:[prior],current:null,lang:'zh',rules:rules,styleId:'finance-blue-gold',exportStyle:null,preview:false,sourceId:null,quote:null,wikiSlug:'index',wikiEdits:{},wikiSearch:'',filter:'all',vSearch:'',selected:{},busy:false,steps:{family:false,source:false,gap:false,learn:false},generated:{},autoWork:true,styles:[{id:'finance-blue-gold',name:'蓝金·金融简历（参考样式）',layout:'editorial',primary:'#14284B',accent:'#AD8735',bodyPt:9.2,lineHeight:1.48,marginMm:15,includePhoto:true,description:'统一思源黑体，正文常规字重，栏目与公司名清晰分层。'},{id:'workbench-green',name:'墨绿·工作台',layout:'editorial',primary:'#263C32',accent:'#7D8A78',bodyPt:9.5,lineHeight:1.5,marginMm:15,includePhoto:true,description:'相同文档结构，使用工作台墨绿配色。'}],engineChecked:false,learnResult:null,pulse:null}}
+
+function roleMemoryText(){var f=S.form,l=f.language==='both'?['zh','en']:[f.language],o=[];l.forEach(function(x){var v=S.versions.filter(function(v){return v.family===f.family&&v[x]})[0];if(v)o.push((x==='zh'?'中文':'英文')+' · '+v.title+'（'+fmt(v.createdAt)+'）')});
+ return o.length?'本次沿用 '+f.family+' 最近版本：'+o.join('；')+'。保留已满意的框架与具体方法，再按当前 JD 调整。':'这个岗位方向还没有历史版本；本次按 JD 建立框架，其他方向仅参考表达。'}
+function scopeText(){var f=S.form,sc=scopeOf(f),au=f.useWiki?SOURCES.filter(function(s){return s.wiki&&s.text.trim()}).length:0,om=sc.filter(function(s){return!s.text.trim()});
+ return(f.useWiki?'Wiki 自动检索 '+au+' 份可读原件、'+wikiPages().length+' 个相关知识页；':'Wiki 已关闭；')+'手动额外指定 '+f.sourceIds.length+' 份。'+(om.length?' 将跳过 '+om.length+' 份不可读资料：'+om.map(function(d){return d.name}).join('、')+'。':'')+' 自动检索使用岗位相关摘录，不代表已全文核验。'}
+function workText(){return S.autoWork?'作品默认独立编写（本人声明） · 已理解 3 份 · 待处理 0 份 · 1 份不可读，已跳过 · 新作品会自动排队':'作品自动理解已暂停；原件与已有知识保留。'}
+function statusText(v){return v.status==='revised'?'回传修改稿':v.status==='edited'?'编辑稿':'生成草稿'}
+function langText(v){return v.language==='both'?'中英文':v.language==='en'?'英文':'中文'}
+function header(eb,t,sub,acts){return'<header class="ph"><div><p class="eb">'+eb+'</p><h3>'+t+'</h3><p class="lede">'+sub+'</p></div><div class="acts">'+(acts||'')+'</div></header>'}
+function layoutLines(text){var out=[],lines=text.split(/\r?\n/).map(function(s){return s.trim()}).filter(Boolean),date=/^\d{4}[./]\d{1,2}\s*[—–-]/,hd=/^(教育背景|实习经历|项目经历|技能|EDUCATION|EXPERIENCE|PROJECTS|SKILLS)$/i;
+ lines.forEach(function(l,i){if(date.test(l)&&out.length){out[out.length-1].date=l;return}out.push({text:l,kind:i===0?'name':i===1?'contact':hd.test(l)?'heading':/^[•●\-]/.test(l)?'bullet':'text'})});return out}
+function vRows(list,compact){return'<ul class="vl">'+list.map(function(v){return'<li class="vr'+(S.selected[v.id]?' sel':'')+'">'+(compact?'':'<input type="checkbox" '+(S.selected[v.id]?'checked ':'')+'aria-label="选择 '+h(v.title)+'"'+A('vsel',v.id)+'>')+'<button class="vo"'+A('open',v.id)+'><span class="t">'+h(v.title)+'</span><span class="m"><span class="chip">'+h(v.family)+'</span> '+langText(v)+' · '+statusText(v)+' · '+h(v.engine)+'</span></button><time>'+fmt(v.createdAt)+'</time>'+(compact?'':'<button class="icb" aria-label="删除 '+h(v.title)+'"'+A('vdel',v.id)+'>'+ic('trash')+'</button>')+'</li>'}).join('')+'</ul>'}
+
+function vHome(){var f=S.form,cv=src('src-cv');
+ return header('新建定制','下一份简历，从岗位开始。','读懂招聘要求，用你的真实经历回应。','<button class="sec"'+A('route','wiki')+'>'+ic('book')+'个人 Wiki</button>')+
+ '<div class="home-g"><section class="card"><form id="gen"><div class="step"><span class="step-no">01</span><div><h4>岗位方向</h4><div class="roles" role="group" aria-label="岗位方向">'+FAMILIES.map(function(x){return'<button type="button" class="rc" aria-pressed="'+(f.family===x)+'"'+A('family',x)+'>'+h(x)+'</button>'}).join('')+'</div><p class="note" id="rm-note">'+h(roleMemoryText())+'</p></div></div>'+
+ '<div class="step"><span class="step-no">02</span><div><h4>目标岗位</h4><div class="fr"><label class="fld">目标公司<input id="f-company" value="'+h(f.company)+'"></label><label class="fld">具体岗位 *<input id="f-role" value="'+h(f.role)+'"></label></div><div class="fr"><label class="fld">工作地点<input id="f-city" value="'+h(f.city)+'"></label><label class="fld">交付语言<select id="f-language">'+[['both','中文 + English'],['zh','仅中文'],['en','English only']].map(function(o){return'<option value="'+o[0]+'"'+(f.language===o[0]?' selected':'')+'>'+o[1]+'</option>'}).join('')+'</select></label></div><div class="fl"><label for="f-jd">岗位描述 JD（示例，可改，每行算一项要求）</label><button type="button" class="tb"'+A('research')+'>'+ic('search')+'联网查找岗位要求</button></div><textarea id="f-jd" rows="5">'+h(f.jd)+'</textarea></div></div>'+
+ '<div class="step"><span class="step-no">03</span><div><h4>证据来源</h4><label class="tog"><input type="checkbox" id="f-wiki" '+(f.useWiki?'checked':'')+'><span>自动结合个人 Wiki 及关联原件</span></label><p class="note" id="scope-note">'+h(scopeText())+'</p><details class="disc" id="d-src"'+(S.openSrc?' open':'')+'><summary>额外指定素材 <span id="man-n">'+f.sourceIds.length+' 份手动指定</span></summary>'+SOURCES.map(function(d){return'<label class="sc"><input type="checkbox" data-mansrc="'+d.id+'" '+(f.sourceIds.indexOf(d.id)>=0?'checked':'')+'><span><strong>'+h(d.name)+'</strong><small>'+h(d.level)+(d.kind==='研究材料'?' · 选中后将发送相关内容给在线模型':'')+'</small></span></label>'}).join('')+'</details><details class="disc"><summary>补充要求</summary><textarea id="f-notes" rows="2" placeholder="例如：突出财务分析和风险核查">'+h(f.notes)+'</textarea></details></div></div>'+
+ '<div class="gf"><p>只改写有依据的经历 · 联系方式在本机合并 · 真实工作台由 Claude 撰写，Codex 备援</p><button class="pri lg" type="submit" '+(S.busy?'disabled':'')+'>'+(S.busy?'任务进行中…':'生成定制简历')+ic('arrow')+'</button></div></form>'+(S.busy?'<p class="prog" aria-live="polite">'+h(S.busy)+'</p>':'')+'</section>'+
+ '<aside><div class="rh"><div><p class="eb">内容基线</p><h4>'+h(cv.name)+'</h4></div><button class="tb"'+A('route','sources')+'>管理素材</button></div><div class="paper"><div class="pn">示例候选人</div><div class="pc">财务分析 · 行业研究 · 股权投资</div>'+cv.text.split('\n').slice(1).map(function(x){return/^(教育背景|实习经历|技能)$/.test(x)?'<h5>'+h(x)+'</h5>':'<p>'+h(x)+'</p>'}).join('')+'</div></aside></div>'+
+ '<div class="sect"><h4>最近的定制</h4><button class="tb"'+A('route','versions')+'>全部 '+S.versions.length+' 份</button></div>'+(S.versions.length?vRows(S.versions.slice(0,4),true):'<p class="note">第一份定制简历会保存在这里。每次修改都保留一个新版本。</p>')}
+
+function vVersions(){var q=S.vSearch.toLowerCase(),list=S.versions.filter(function(v){return(S.filter==='all'||v.family===S.filter)&&(!q||v.title.toLowerCase().indexOf(q)>=0)}),groups=[];list.forEach(function(v){var d=fmtDay(v.createdAt),g=groups[groups.length-1];if(g&&g.day===d)g.items.push(v);else groups.push({day:d,items:[v]})});
+ var sel=Object.keys(S.selected).filter(function(k){return S.selected[k]}),fams=FAMILIES.filter(function(f){return S.versions.some(function(v){return v.family===f})});
+ if(!S.versions.length)return header('历史','简历版本','还没有版本。')+'<div class="card"><p>填写岗位和 JD，生成你的第一份定制简历。</p><p style="margin-top:10px"><button class="pri"'+A('route','home')+'>开始定制</button></p></div>';
+ return header('历史','简历版本',S.versions.length+' 份 · 每份保留岗位、来源和规则快照；删除后可撤销。','<button class="pri"'+A('route','home')+'>新建定制</button>')+
+ '<div class="ltb"><div class="seg" role="group" aria-label="按岗位方向筛选"><button aria-pressed="'+(S.filter==='all')+'"'+A('vfilter','all')+'>全部 '+S.versions.length+'</button>'+fams.map(function(f){return'<button aria-pressed="'+(S.filter===f)+'"'+A('vfilter',f)+'>'+h(f)+' '+S.versions.filter(function(v){return v.family===f}).length+'</button>'}).join('')+'</div><input id="v-search" type="search" placeholder="搜索公司或岗位" aria-label="搜索版本" value="'+h(S.vSearch)+'"></div>'+
+ (sel.length?'<div class="bulk" aria-live="polite"><span>已选 '+sel.length+' 份</span><span class="acts"><button class="tb"'+A('vclear')+'>取消选择</button><button class="dang"'+A('vdelsel')+'>'+ic('trash')+'删除所选</button></span></div>':'')+
+ (groups.map(function(g){return'<p class="gl">'+h(g.day)+'</p>'+vRows(g.items)}).join('')||'<p class="note">没有匹配的版本。</p>')}
+
+function vSources(){var d=S.sourceId?src(S.sourceId):null,body='';
+ if(d){var t=h(d.text);if(S.quote&&d.text.indexOf(S.quote)>=0)t=t.replace(h(S.quote),'<mark id="src-mark">'+h(S.quote)+'</mark>');body='<p class="eb">原文提取 · '+h(d.level)+'</p><h4 style="font-size:16px;font-weight:600">'+h(d.name)+'</h4>'+(d.text?'<pre>'+t+'</pre>':'<p class="warn" style="margin-top:8px">'+h(d.warning)+'</p>')+(S.quote?'<p class="note">高亮是简历引用的连续原文。来源定位只说明这句话存在，不等于事实已独立核实。</p>':'')}
+ else body='<p class="eb">使用原则</p><h4 style="font-size:16px;font-weight:600">把事实和表达分开</h4><p class="note">简历中已有的事实先按本人陈述使用。报告、底稿和汇报材料可以补强证据，但不会自动证明你主导了整个项目。</p><p class="note">点击左侧“查看原文”，核对信息后再选择用于生成。</p>';
+ return header('资料库','我的素材','原件保留在本机。选择内容基线，逐步补充可以证明你贡献的材料。','<button class="pri"'+A('fake','导入文件在真实工作台可用，展示页不接收文件。')+'>导入文件</button>')+'<div class="src-g"><section><p class="note" style="margin-bottom:6px!important">'+SOURCES.length+' 份资料 · 同步目录和 Wiki 已关联原件可自动检索</p>'+SOURCES.map(function(s){return'<div class="dr'+(S.sourceId===s.id?' sel':'')+'"><span class="fm">'+s.ext.replace('.','').toUpperCase()+'</span><div><h4>'+h(s.name)+'</h4><p>'+h(s.level)+' · '+s.pages+(s.ext==='.xlsx'?' 个工作表':' 页 / 张')+(s.id==='src-cv'?' <span class="chip ac">当前基线</span>':'')+'</p>'+(s.warning?'<p class="warn">'+h(s.warning)+'</p>':'')+'<button class="tb"'+A('source',s.id)+'>查看原文</button></div></div>'}).join('')+'</section><section class="card">'+body+'</section></div>'}
+
+function vEditor(){var v=S.versions.filter(function(x){return x.id===S.current})[0];if(!v)return vVersions();if(!v[S.lang])S.lang=v.zh?'zh':'en';var st=S.styles.filter(function(s){return s.id===(S.exportStyle||S.styleId)})[0]||S.styles[0],errs=v.checks.sourceErrors,issues=v.gaps.length+errs.length;
+ var pv='';if(S.preview){var lines=layoutLines(v[S.lang]);pv='<div class="pv"><div class="pv-head"><span>排版示意 · '+h(st.name)+'</span><button class="tb"'+A('previewoff')+'>收起</button></div><div class="pp" style="line-height:'+st.lineHeight+';padding-inline:'+st.marginMm*1.2+'px">'+lines.map(function(l){return l.kind==='name'?'<div class="nm" style="color:'+st.primary+'">'+h(l.text)+'</div>':l.kind==='contact'?'<div class="ct">'+h(l.text)+'</div>':l.kind==='heading'?'<div class="hd" style="color:'+st.primary+';border-color:'+st.accent+'">'+h(l.text)+'</div>':l.date?'<p class="row"><span>'+h(l.text)+'</span><span>'+h(l.date)+'</span></p>':'<p>'+h(l.text)+'</p>'}).join('')+'</div><p class="note">真实工作台会生成实际 PDF 并统计页数；展示页只示意配色和层级，不含照片。</p></div>'}
+ return'<p class="note" style="margin:0 0 8px!important"><button class="tb"'+A('route','versions')+'>简历版本</button> / '+h(v.family)+'</p>'+header('定制结果',h(v.title),'先核对证据与职责，再检查文本与版面。','<button class="sec"'+A('preview')+'>预览排版</button><button class="sec"'+A('save')+'>保存新版本</button><select id="x-style" aria-label="导出样式">'+S.styles.map(function(s){return'<option value="'+s.id+'"'+(s.id===st.id?' selected':'')+'>'+h(s.name)+'</option>'}).join('')+'</select><select id="x-fmt" aria-label="导出格式"><option>TXT</option><option>Word</option><option>PDF</option></select><button class="pri"'+A('fake','展示页不生成文件。真实工作台可导出 TXT、Word 和 PDF，并分别检查版面。')+'>导出</button>')+
+ '<div class="tbar"><div class="seg" role="tablist"><button role="tab" aria-selected="'+(S.lang==='zh')+'" '+(v.zh?'':'disabled')+A('lang','zh')+'>中文</button><button role="tab" aria-selected="'+(S.lang==='en')+'" '+(v.en?'':'disabled')+A('lang','en')+'>English</button></div><span class="mu">'+fmt(v.createdAt)+' · '+statusText(v)+' · '+h(v.engine)+' · 需本人核对</span><button class="tb"'+A('copy')+'>复制正文</button></div>'+
+ '<div class="ed-g"><section class="ed-p">'+pv+'<label for="r-text" style="position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)">简历正文</label><textarea id="r-text" spellcheck="false">'+h(v[S.lang])+'</textarea><div class="ed-m"><span id="c-count">'+strip(v[S.lang]).length+' 字符</span><span>修改后请保存新版本</span></div></section>'+
+ '<aside class="rv"><p class="eb">岗位与证据</p><p>'+h(v.summary)+'</p><p class="ckl'+(errs.length?' w':'')+'">'+ic('check')+(errs.length?'存在来源待核对项':'来源 ID 与摘录已检查')+'</p><p class="note" style="margin:2px 0 8px!important">来源检查不等于事实已独立核实</p>'+
+ '<div>'+v.mapping.map(function(m){return'<div class="mp"><span class="chip '+(m.match==='缺口'?'wr':m.match==='直接匹配'?'ac':'')+'">'+h(m.match)+'</span><h5>'+h(m.requirement)+'</h5><p>'+h(m.reason)+'</p></div>'}).join('')+'</div>'+
+ '<details open><summary>需要关注 <span class="cnt'+(issues?' w':'')+'">'+issues+'</span></summary><ul>'+(v.gaps.concat(errs).map(function(g){return'<li>'+h(g)+'</li>'}).join('')||'<li>没有列出缺口，请仍核对事实。</li>')+'</ul></details>'+
+ '<details><summary>双语与版面</summary><p class="note">'+h(v.alignment)+'</p><p class="note">'+h(v.checks.semantic)+'</p><p class="note">'+h(v.checks.layout)+'</p></details>'+
+ '<details'+(S.openEv?' open':'')+' id="d-ev"><summary>来源摘录 <span class="cnt">'+v.evidence.length+'</span></summary>'+v.evidence.map(function(e,i){return'<div class="ev"><strong>'+h(e.claim)+'</strong><blockquote>'+h(e.quote)+'</blockquote><button class="tb"'+A('evsrc',v.id,i)+'>查看来源</button></div>'}).join('')+'</details>'+
+ '<details'+(S.openLearn?' open':'')+' id="d-learn"><summary>回传你的修改稿</summary><p class="note">与本版本的'+(S.lang==='zh'?'中文':'英文')+'比较。新事实与表达偏好分开记录。</p><p style="margin:6px 0!important"><button class="tb"'+A('fillrev')+'>填入示例修改稿</button></p><label class="fld">修改后的完整正文<textarea id="rev-text" rows="6" placeholder="粘贴你最终修改后的全文"></textarea></label><p style="margin-top:8px!important"><button class="sec"'+A('learn')+'>比较并学习</button></p>'+(S.learnResult?'<div class="note" aria-live="polite">'+S.learnResult+'</div>':'')+'</details></aside></div>'}
+
+function wikiPages(){var base=[{slug:'index',title:'总览',status:'user',content:'# 总览\n\n[[exp-a]] [[work-sector]] [[work-model]] [[work-course]]\n\n经历和作品分开记录。简历里的事实是 E2；作品是否支持某个主张要逐条判断（E3）；课程作业是 E1。'},{slug:'exp-a',title:'示例投资机构 A',status:'user',content:'# 示例投资机构 A\n\nsourceId=src-cv（E2）\n\n'+CARDS.filter(function(c){return c.id==='c-intern'})[0].quote+'\n\n待确认：具体整理了哪些行业资料、交付给谁。\n\n[[index]]'}];
+ [['src-sector','work-sector'],['src-model','work-model'],['src-course','work-course']].forEach(function(p){var s=src(p[0]),cs=CARDS.filter(function(c){return c.sourceId===p[0]});base.push({slug:p[1],title:s.name+'：岗位贡献卡片',status:'model-draft',content:'# '+s.name+'：岗位贡献卡片\n\nsourceId='+s.id+'\n\n'+cs.map(function(c){return'### '+c.action+'\n- 方法：'+(c.method||'无')+'\n- 对象：'+c.object+'\n- 产出：'+(c.output||'无')+'\n- 发现：'+(c.finding||'无')+'\n- 边界：'+c.boundary+'\n- 适用岗位：'+c.roles.join('、')+'\n- 原文引用：'+c.quote}).join('\n\n')+'\n\n模型辅助提炼。原文引用已定位；模型解释和数字准确性仍需核验。\n\n[[index]]'})});
+ return base.map(function(p){var e=S.wikiEdits[p.slug];return e?Object.assign({},p,{content:e.content,status:'edited',rev:e.rev}):p})}
+function vWiki(){var ps=wikiPages(),sel=ps.filter(function(p){return p.slug===S.wikiSlug})[0]||ps[0],q=S.wikiSearch.toLowerCase(),slugs=ps.map(function(p){return p.slug}),links=[],m,re=/\[\[([a-z0-9-]+)\]\]/g;while((m=re.exec(sel.content)))links.push(m[1]);
+ var all=ps.map(function(p){return p.content}).join(' '),broken=[];re.lastIndex=0;while((m=re.exec(all)))if(slugs.indexOf(m[1])<0&&broken.indexOf(m[1])<0)broken.push(m[1]);
+ return header('知识库','个人 Wiki','把经历整理成持续可读的知识页，写简历时再回到原文核对。','<button class="sec"'+A('fake','展示页没有同步目录。真实工作台监听指定目录并自动同步。')+'>立即检查同步</button>')+'<p class="strip">'+h(workText())+'</p><div class="wk-g"><aside><input id="w-search" type="search" placeholder="搜索公司、文件或主题" aria-label="搜索 Wiki 页面" value="'+h(S.wikiSearch)+'" style="width:100%;margin-bottom:6px">'+ps.filter(function(p){return!q||p.title.toLowerCase().indexOf(q)>=0}).map(function(p){return'<button class="wp'+(p.slug===sel.slug?' sel':'')+'"'+A('wiki',p.slug)+'>'+h(p.title)+'<small>'+(p.status==='model-draft'?'模型草稿 · 待复核':p.status==='edited'?'本人编辑 · 第 '+p.rev+' 次修订':'已有资料整理')+'</small></button>'}).join('')+'<p class="note">来源与链接检查：'+(broken.length?'失效链接 '+h(broken.join('、')):'当前无失效页面链接。此检查不代表事实已核实。')+'</p></aside><section class="card"><div class="rh"><h4>'+h(sel.title)+'</h4><button class="sec"'+A('wikisave',sel.slug)+'>保存页面</button></div><div class="lk">'+links.map(function(l){var t=ps.filter(function(p){return p.slug===l})[0];return'<button'+A('wiki',l)+'>'+h(t?t.title:l)+'</button>'}).join('')+'</div><textarea id="w-content" rows="16" aria-label="Wiki Markdown 正文">'+h(sel.content)+'</textarea><p class="note">保存保留旧修订；新增事实仍需来源。Wiki 草稿不会直接变成已核实简历事实。</p></section></div>'}
+
+function swatch(s){return'<svg viewBox="0 0 50 66" width="50" aria-hidden="true"><rect x="1" y="1" width="48" height="64" rx="2" fill="#fffffd" stroke="#d9d5ca"/><rect x="7" y="9" width="18" height="3" fill="'+h(s.primary)+'"/><rect x="7" y="20" width="26" height="2.5" fill="'+h(s.primary)+'"/><rect x="33" y="20" width="10" height="2.5" fill="'+h(s.accent)+'"/><rect x="7" y="27" width="36" height="1.5" fill="#d9d5ca"/><rect x="7" y="31" width="30" height="1.5" fill="#d9d5ca"/><rect x="7" y="40" width="26" height="2.5" fill="'+h(s.primary)+'"/><rect x="7" y="47" width="36" height="1.5" fill="#d9d5ca"/></svg>'}
+function vStyles(){var b=S.styles.filter(function(s){return s.id===S.styleId})[0];return header('版式','简历样式库','照片与版式在本机保存。选择默认样式，或将喜欢的设置另存为新样式。')+'<div class="st-g"><section><div class="sect" style="margin-top:0"><h4>已保存的样式</h4></div><ul class="sl">'+S.styles.map(function(s){return'<li class="ss'+(s.id===S.styleId?' sel':'')+'">'+swatch(s)+'<div><h4 style="font-size:14px;font-weight:600">'+h(s.name)+(s.id===S.styleId?' <span class="chip ac">默认</span>':'')+'</h4><p>'+h(s.description||'已保存的个人样式')+'</p><small>'+s.bodyPt+' pt · 行距 '+s.lineHeight+' · 页边距 '+s.marginMm+' mm</small><div class="rw">'+(s.id===S.styleId?'':'<button class="tb"'+A('styleuse',s.id)+'>设为默认</button>')+'</div></div></li>'}).join('')+'</ul></section><form id="style-form" class="card sf" novalidate><h4 style="font-size:15px;font-weight:600">保存喜欢的样式</h4><label class="fld">样式名称<input id="s-name" maxlength="60" value="'+h(b.name+' · 副本')+'"></label><div class="fr" style="margin:0"><label class="fld">主色<input type="color" id="s-primary" value="'+h(b.primary.toLowerCase())+'"></label><label class="fld">点缀色<input type="color" id="s-accent" value="'+h(b.accent.toLowerCase())+'"></label></div><div class="fr" style="margin:0"><label class="fld">正文字号<input type="number" id="s-pt" min="8.5" max="12" step="0.1" value="'+b.bodyPt+'"></label><label class="fld">行距<input type="number" id="s-lh" min="1.2" max="1.9" step="0.05" value="'+b.lineHeight+'"></label></div><label class="fld">左右页边距（mm）<input type="number" id="s-mm" min="10" max="24" value="'+b.marginMm+'"></label><p><button class="pri">保存为新样式</button></p><p class="note" id="s-err" role="status"></p></form></div>'}
+
+function vRules(){var act=S.rules.filter(function(r){return r.status==='active'}).length;return header('方法','写作规则','通用方法值得复用；你的事实和偏好，由你的材料决定。')+'<div class="pr3">'+[['机器读得懂','清晰栏目与自然术语，检查文本提取和阅读顺序，不堆关键词。'],['要求有证据','拆解硬门槛与职责，优先选择最强证据，缺口如实显示。'],['人工看得快','行动、方法、范围、产出。突出你的实际贡献，不夸大交易责任。']].map(function(p,i){return'<div><span class="step-no">0'+(i+1)+'</span><h4>'+p[0]+'</h4><p>'+p[1]+'</p></div>'}).join('')+'</div><div class="ru-g"><section><div class="sect" style="margin-top:0"><h4>你的表达偏好</h4><span class="note" style="margin:0!important">'+act+' 条生效</span></div>'+(S.rules.map(function(r){return'<div class="rr"><div><span class="chip '+(r.status==='active'?'ac':'')+'">'+h(r.scope==='all'?'所有岗位':r.scope)+'</span> <small>'+(r.status==='active'?'已生效':r.status==='rejected'?'已撤销':'候选观察')+' · '+(r.kind==='explicit'?'本人明确要求':'修改稿观察'+(r.sampleKeys?' · '+r.sampleKeys.length+' / 2 个样本':''))+'</small><p>'+h(r.text)+'</p>'+(r.reason?'<small>'+h(r.reason)+'</small>':'')+'</div><button class="tb"'+A('rule',r.id,r.status==='active'?'rejected':'active')+'>'+(r.status==='active'?'撤销':'启用')+'</button></div>'}).join('')||'<p class="note">还没有你的长期表达偏好。回传修改稿后，候选观察会出现在这里。</p>')+'</section><form id="rule-form" class="card sf"><h4 style="font-size:15px;font-weight:600">添加明确偏好</h4><label class="fld">适用范围<select id="ru-scope"><option value="all">所有岗位</option>'+FAMILIES.map(function(f){return'<option>'+h(f)+'</option>'}).join('')+'</select></label><label class="fld">你的要求<textarea id="ru-text" rows="4" maxlength="1600" placeholder="例如：投资岗位优先突出风险核查。也可以试试写一条资料里没有依据的要求，比如“写出主导过的并购交易”。"></textarea></label><p><button class="pri">保存规则</button></p><p class="note">不要在偏好中填写电话号码、项目内部数据或新增业绩；这些应作为事实材料导入。</p></form></div>'}
+
+function vSettings(){return header('设置','连接与设置','本机保存，在线生成。不复制、不上传任何登录凭据。')+'<div class="setg"><section class="card"><div class="rh"><h4>生成引擎</h4><button class="sec"'+A('engine')+'>检查连接</button></div><p>写作类任务由 Claude 完成，Codex 作为备援；公开岗位检索与后台作品理解优先 Codex。某个引擎额度用尽或未登录时会暂停它，并自动改用另一个。</p>'+(S.engineChecked?'<p class="note" aria-live="polite">展示页没有连接任何引擎，所有结果都由页面脚本计算。</p>':'')+'<div class="tw" style="margin-top:8px"><table><thead><tr><th>任务</th><th>主引擎</th><th>备援</th><th>理由</th></tr></thead><tbody>'+ROUTES.map(function(r){return'<tr><td>'+r[0]+'</td><td>'+r[1]+'</td><td>'+r[2]+'</td><td>'+r[3]+'</td></tr>'}).join('')+'</tbody></table></div></section><section class="card"><h4>作品理解与岗位记忆</h4><label class="tog" style="margin-top:8px"><input type="checkbox" id="auto-work" '+(S.autoWork?'checked':'')+'><span>自动理解新作品并提炼岗位贡献</span></label><p>'+h(workText())+'</p><p>导入作品按本人声明视为独立编写；引用的第三方事实和建议后续开展的工作单独标注。每个岗位方向最近一次生成或编辑稿，默认作为该方向下次的满意基线；最新 JD 和事实优先。</p></section><section class="card"><h4>资料与隐私</h4><p>已导入资料、生成版本和规则保存在本机。结合 Wiki 时会读取关联原件；开启作品自动理解后，新作品会发送给在线模型分析。姓名、电话和邮箱在发送前替换。公开岗位检索独立运行，不携带个人简历。</p></section><section class="card"><h4>关于可投递检查</h4><p>分别检查文本可解析性、JD 证据覆盖与人工可读性。生成稿仍需本人核对；模型审核、来源定位和真实事实核验不是同一件事。不承诺 ATS、面试或录用。</p></section></div>'}
+
+function renderGuide(){var st=[['family','换一个岗位方向再生成','同一组证据，选材和表达不同，事实不变'],['source','查看一条来源摘录','回到原文，高亮简历引用的那句话'],['gap','减少资料后再生成','证据不够就列为缺口，不会补写'],['learn','回传一份修改稿','新事实和表达偏好分开，偏好先当候选']];
+ $('#guide').innerHTML=st.map(function(s,i){var d=S.steps[s[0]];return'<button class="step-g'+(d?' done':'')+'"'+A('step',s[0])+'><i>'+(d?'✓':i+1)+'</i><span>'+s[1]+'</span><small>'+s[2]+'</small></button>'}).join('')}
+function renderBack(){var r=compose(S.form,S.rules),ar=activeRules(S.form.family,S.rules);
+ $('#backstage').innerHTML='<div class="back-label">幕后 · 按当前表单计算（展示用）</div><div class="fields"><span><b>方向</b> '+h(S.form.family)+'</span><span><b>可读资料</b> '+r.scope+'</span><span><b>已完成分析</b> '+r.available+' 条</span><span><b>入选</b> '+r.usedIds.length+' 条</span><span><b>不写入</b> 建议/第三方 '+r.held+' 条</span><span><b>跳过</b> 不可读 '+r.skipped+' 份</span><span><b>生效偏好</b> '+ar.length+'</span><span><b>引用定位</b> '+(r.sourceErrors.length?r.sourceErrors.length+' 项失败':'全部通过')+'</span></div>'}
+function renderNav(){var items=[['home','开始定制','home'],['versions','简历版本','history'],['sources','我的素材','file'],['wiki','个人 Wiki','book'],['styles','简历样式','palette'],['rules','写作规则','rules'],['settings','连接与设置','settings']];
+ $('#nav').innerHTML=items.map(function(i){var cur=S.route===i[0]||(S.route==='editor'&&i[0]==='versions');return'<button class="nav-item"'+(cur?' aria-current="page"':'')+A('route',i[0])+'>'+ic(i[2])+'<span>'+i[1]+'</span>'+(i[0]==='versions'?'<small>'+S.versions.length+'</small>':'')+'</button>'}).join('')}
+var lastPlace='home';
+function render(){var a=document.activeElement,id=a&&a.id,fk=a&&a.dataset?a.dataset.fk:null;
+ renderGuide();renderBack();renderNav();
+ $('#view').innerHTML={home:vHome,versions:vVersions,sources:vSources,editor:vEditor,wiki:vWiki,styles:vStyles,rules:vRules,settings:vSettings}[S.route]();
+ if(id&&document.getElementById(id)){var el=document.getElementById(id);if(el!==document.activeElement)el.focus({preventScroll:true});if(el.type==='search'){var l=el.value.length;el.setSelectionRange(l,l)}}
+ else if(fk){var m=$$('#experience [data-fk]').filter(function(e){return e.dataset.fk===fk})[0];if(m)m.focus({preventScroll:true})}
+ var place=S.route+'|'+(S.current||'');if(place!==lastPlace){lastPlace=place;var w=$('#wb');if(w.getBoundingClientRect().top<0)w.scrollIntoView()}
+ if(S.pulse){var p=$(S.pulse);if(p)p.classList.add('pulse');S.pulse=null}
+ var mk=$('#src-mark');if(mk&&S.scrollMark){S.scrollMark=false;mk.scrollIntoView({block:'nearest'})}
+}
+var tT;function toast(msg,o){o=o||{};var e=$('#toast');e.innerHTML='<span>'+h(msg)+'</span>'+(o.action?'<button type="button" id="toast-a">'+h(o.action.label)+'</button>':'');e.className='toast show'+(o.err?' err':'');if(o.action)$('#toast-a').onclick=function(){e.className='toast';o.action.run()};clearTimeout(tT);tT=setTimeout(function(){e.className='toast'},o.action?10000:3600)}
+
+function deleteVersions(ids){var kept=S.versions.slice();$('#dlg-t').textContent=ids.length>1?'删除 '+ids.length+' 份简历版本？':'删除这份简历版本？';$('#dlg-b').textContent='版本将从列表移除，删除后 10 秒内可在提示中撤销。';
+ pendingDelete=function(){S.versions=S.versions.filter(function(v){return ids.indexOf(v.id)<0});ids.forEach(function(i){delete S.selected[i]});if(ids.indexOf(S.current)>=0){S.current=null;if(S.route==='editor')S.route='versions'}render();toast('已删除 '+ids.length+' 份版本',{action:{label:'撤销',run:function(){S.versions=kept;render();toast('已恢复 '+ids.length+' 份版本')}}})};$('#dlg').showModal()}
+var pendingDelete=null;
+function generate(){var f=S.form;if(!f.role.trim()){toast('请先填写具体岗位',{err:true});$('#f-role').focus();return}
+ var r=compose(f,S.rules);if(!r.ok){toast('所选资料里没有这个方向可用的证据，已停止生成，不会编造。',{err:true});return}
+ var msgs=['正在检索相关证据…','正在对照 JD 要求…','正在检查来源摘录…'],i=0,fast=matchMedia('(prefers-reduced-motion: reduce)').matches,finish=function(){var v=mkVersion(f,S.rules);S.versions.unshift(v);S.current=v.id;S.lang=v.zh?'zh':'en';S.route='editor';S.busy=false;S.preview=false;S.learnResult=null;S.generated[f.family]=1;if(Object.keys(S.generated).length>=2)S.steps.family=true;if(!f.useWiki)S.steps.gap=true;render();toast('示例简历已生成，请核对来源与缺口')};
+ if(fast){finish();return}S.busy=msgs[0];render();var t=setInterval(function(){i++;if(i<msgs.length){S.busy=msgs[i];render()}else{clearInterval(t);finish()}},420)}
+var SAMPLE_FACT={zh:'• 将 3 份行业简报汇总给投资经理',en:'• Compiled 3 industry briefs for the investment manager'};
+/* Mirrors learn(): the diff is real, the classification is a simple stand-in for the model. */
+function learn(){var v=S.versions.filter(function(x){return x.id===S.current})[0],text=$('#rev-text').value;if(!text.trim()){toast('先粘贴修改后的全文，或点“填入示例修改稿”',{err:true});return}
+ var norm=function(t){return t.split(/\r?\n/).map(function(x){return x.trim()}).filter(Boolean)},a=norm(v[S.lang]),b=norm(text),removed=a.filter(function(x){return b.indexOf(x)<0}),added=b.filter(function(x){return a.indexOf(x)<0});
+ if(!added.length&&!removed.length){S.learnResult='<p>和本版本相比没有实质变化，没有记录任何偏好。</p>';return}
+ var srcText=SOURCES.map(function(s){return strip(s.text)}).join(''),facts=added.filter(function(x){return/\d/.test(x)&&!(x.match(/\d+(?:\.\d+)?/g)||[]).every(function(n){return srcText.indexOf(n)>=0})}),softened=removed.some(function(x){return/协助|参与|Assisted/i.test(x)})&&added.some(function(x){return!/协助|参与|Assisted/i.test(x)});
+ var msg='',prefs=softened?[{text:PREF_DIRECT,reason:'修改稿把“协助、参与”改成了直接的动作'}]:[];
+ prefs.forEach(function(p){var same=S.rules.filter(function(r){return r.scope===v.family&&r.text===p.text})[0];
+  if(same&&same.status==='rejected'){msg+='<p>这条偏好你已撤销，不会从修改稿重新学回。</p>';return}
+  if(same&&same.kind!=='explicit'){var k=same.sampleKeys.slice();if(k.indexOf(v.id)<0)k.push(v.id);same.sampleKeys=k;if(k.length>=2&&same.status==='candidate')same.status='active';msg+='<p><strong>表达偏好：</strong>“'+h(p.text)+'”已有 '+k.length+' 个独立样本'+(same.status==='active'?'，升级为已生效，下次生成会使用。':'。')+'</p>';return}
+  S.rules.push({id:nid('r'),text:p.text,reason:p.reason,scope:v.family,status:'candidate',kind:'observed',sampleKeys:[v.id]});msg+='<p><strong>表达偏好：</strong>“'+h(p.text)+'”记为候选（1 / 2 个样本），还不会影响生成。</p>'});
+ if(facts.length)msg+='<p><strong>新事实（E2，待确认来源）：</strong>'+facts.map(h).join('；')+'。它和偏好分开记录，不会变成规则。</p>';
+ if(!msg)msg='<p>记录了修改，但没有可提炼的长期偏好。</p>';
+ var nv=Object.assign({},v,{id:nid('v'),parentId:v.id,status:'revised',createdAt:now(),engine:'示例结果',gaps:v.gaps.concat(['已回传 '+(S.lang==='zh'?'中文':'英文')+' 修改，另一语言尚未重新对齐']),checks:{sourceErrors:[],semantic:'用户修改稿待核对；另一语言需同步检查',layout:'未导出验证'}});nv[S.lang]=text;S.versions.unshift(nv);S.current=nv.id;S.learnResult=msg;S.openLearn=true;S.steps.learn=true;toast('修改稿已保存为新版本，候选偏好见写作规则')}
+
+var ACT={
+ route:function(r){S.route=r;if(r!=='sources'){S.quote=null}},
+ family:function(x){var f=S.form;f.family=x;if(!f.jdTouched){var p=JD[x];f.company=p.company;f.role=p.role;f.city=p.city;f.jd=p.jd}},
+ research:function(){toast('真实工作台由 Codex 检索公开岗位，不携带个人简历。展示页不联网。')},
+ fake:function(m){toast(m)},
+ open:function(i){S.current=i;S.route='editor';S.preview=false;S.learnResult=null;S.openLearn=false;S.openEv=false},
+ vsel:function(i){S.selected[i]=!S.selected[i]},vclear:function(){S.selected={}},vfilter:function(x){S.filter=x;S.selected={}},
+ vdel:function(i){deleteVersions([i])},vdelsel:function(){deleteVersions(Object.keys(S.selected).filter(function(k){return S.selected[k]}))},
+ dlgno:function(){$('#dlg').close()},dlgok:function(){$('#dlg').close();if(pendingDelete){pendingDelete();pendingDelete=null}},
+ source:function(i){S.sourceId=i;S.quote=null},
+ evsrc:function(i,n){var v=S.versions.filter(function(x){return x.id===i})[0],e=v.evidence[+n];S.sourceId=e.sourceId;S.quote=e.quote;S.route='sources';S.scrollMark=true;S.steps.source=true},
+ lang:function(l){S.lang=l;S.learnResult=null},
+ preview:function(){S.preview=true;toast('排版示意已打开')},previewoff:function(){S.preview=false},
+ copy:function(){var t=$('#r-text').value;if(navigator.clipboard)navigator.clipboard.writeText(t).then(function(){toast('正文已复制')},function(){$('#r-text').select();toast('已选中正文，可手动复制')});else{$('#r-text').select();toast('已选中正文，可手动复制')}},
+ save:function(){var v=S.versions.filter(function(x){return x.id===S.current})[0],t=$('#r-text').value,nv=Object.assign({},v,{id:nid('v'),parentId:v.id,status:'edited',createdAt:now()});nv[S.lang]=t;S.versions.unshift(nv);S.current=nv.id;toast('已保存为新版本，原版本保留')},
+ fillrev:function(){var v=S.versions.filter(function(x){return x.id===S.current})[0],t=v[S.lang],l=t.split('\n'),i=-1;l.forEach(function(x,n){if(/协助|Assisted/.test(x))i=n});
+  if(i>=0){l[i]=l[i].replace('协助整理行业公开资料，参与被投企业财务数据整理','整理行业公开资料和被投企业财务数据').replace('Assisted with public industry research and portfolio financial data','Organized public industry research and portfolio financial data');l.splice(i+1,0,SAMPLE_FACT[S.lang])}else{l.push(SAMPLE_FACT[S.lang])}
+  S.fillText=l.join('\n');S.openLearn=true},
+ learn:function(){learn()},
+ wiki:function(s){S.wikiSlug=s},
+ wikisave:function(s){var e=S.wikiEdits[s];S.wikiEdits[s]={content:$('#w-content').value,rev:(e?e.rev:0)+1};toast('Wiki 已保存，旧修订保留')},
+ styleuse:function(i){S.styleId=i;S.exportStyle=null;toast('默认样式已保存，以后生成和导出会沿用')},
+ rule:function(i,st){S.rules.forEach(function(r){if(r.id===i)r.status=st})},
+ engine:function(){S.engineChecked=true},
+ step:function(k){if(k==='family'){S.route='home';toast('选一个岗位方向，点“生成定制简历”；连续生成两个方向就算完成')}
+  else if(k==='source'){var v=S.versions[0];S.current=v.id;S.route='editor';S.openEv=true;toast('展开“来源摘录”，点任意一条的“查看来源”')}
+  else if(k==='gap'){S.route='home';S.form.jdTouched=false;ACT.family('PE/VC');S.form.useWiki=false;S.form.sourceIds=['src-cv'];S.openSrc=true;toast('已切到 PE/VC，并关闭 Wiki、只保留简历。点“生成定制简历”，估值要求会变成缺口')}
+  else{var w=S.versions[0];S.current=w.id;S.route='editor';S.openLearn=true;S.learnResult=null;toast('点“填入示例修改稿”，再点“比较并学习”')}}
+};
+var root=$('#experience');
+root.addEventListener('click',function(e){var b=e.target.closest('[data-act]');if(!b)return;ACT[b.dataset.act](b.dataset.id,b.dataset.arg);render();if(S.fillText&&$('#rev-text')){$('#rev-text').value=S.fillText;S.fillText=null}});
+root.addEventListener('submit',function(e){e.preventDefault();var id=e.target.id;
+ if(id==='gen'){generate();return}
+ if(id==='rule-form'){var t=$('#ru-text').value.trim();if(!t){toast('规则请输入 1–1600 字',{err:true});return}S.rules.push({id:nid('r'),text:t,reason:'',scope:$('#ru-scope').value,status:'active',kind:'explicit'});render();toast('规则已生效，后续生成会加载');return}
+ if(id==='style-form'){var n=$('#s-name').value.trim(),pt=+$('#s-pt').value,lh=+$('#s-lh').value,mm=+$('#s-mm').value;
+  if(!n||n.length>60){$('#s-err').textContent='样式名称需为 1–60 字';return}
+  if(!(pt>=8.5&&pt<=12&&lh>=1.2&&lh<=1.9&&mm>=10&&mm<=24)){$('#s-err').textContent='字号、行距或页边距超出范围';return}
+  var ns={id:nid('st'),name:n,layout:'editorial',primary:$('#s-primary').value,accent:$('#s-accent').value,bodyPt:pt,lineHeight:lh,marginMm:mm,includePhoto:true,description:''};S.styles.push(ns);S.exportStyle=ns.id;render();toast('样式已保存，可设为默认或在导出时选择')}});
+var refreshNotes=function(){var a=$('#rm-note'),b=$('#scope-note'),c=$('#man-n');if(a)a.textContent=roleMemoryText();if(b)b.textContent=scopeText();if(c)c.textContent=S.form.sourceIds.length+' 份手动指定';renderBack()};
+root.addEventListener('input',function(e){var id=e.target.id,f=S.form,map={'f-company':'company','f-role':'role','f-city':'city','f-notes':'notes'};
+ if(map[id]){f[map[id]]=e.target.value;f.jdTouched=true;refreshNotes();return}
+ if(id==='f-jd'){f.jd=e.target.value;f.jdTouched=true;refreshNotes();return}
+ if(id==='v-search'){S.vSearch=e.target.value;render();return}
+ if(id==='w-search'){S.wikiSearch=e.target.value;render();return}
+ if(id==='r-text'){var v=S.versions.filter(function(x){return x.id===S.current})[0];$('#c-count').textContent=strip(e.target.value).length+' 字符'}});
+root.addEventListener('change',function(e){var t=e.target,id=t.id,f=S.form;
+ if(id==='f-language'){f.language=t.value;refreshNotes();return}
+ if(id==='f-wiki'){f.useWiki=t.checked;refreshNotes();return}
+ if(t.dataset.mansrc){var i=f.sourceIds.indexOf(t.dataset.mansrc);if(t.checked&&i<0)f.sourceIds.push(t.dataset.mansrc);if(!t.checked&&i>=0)f.sourceIds.splice(i,1);refreshNotes();return}
+ if(id==='x-style'){S.exportStyle=t.value;if(S.preview)render();return}
+ if(id==='auto-work'){S.autoWork=t.checked;render();toast(t.checked?'新作品将自动排队分析':'已暂停作品自动理解，已有资料保留')}});
+root.addEventListener('toggle',function(e){if(e.target.id==='d-src')S.openSrc=e.target.open;if(e.target.id==='d-ev')S.openEv=e.target.open;if(e.target.id==='d-learn')S.openLearn=e.target.open},true);
+S=seed();render();
+})();
+</script></body></html>
