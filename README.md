@@ -6,8 +6,8 @@
 
 | 项目 | 公开展示 | 项目说明与演示代码 |
 | --- | --- | --- |
-| 简历工作台 | [打开展示页](https://wuu-resume-workbench-showcase.peachy-horse-6031.chatgpt.site) | [查看项目](projects/resume/) |
-| 个人工作台 | [打开展示页](https://wuu-personal-workbench-showcase.peachy-horse-6031.chatgpt.site) | [查看项目](projects/personal/) |
+| 简历工作台 | [打开展示页](https://ooooo-420.github.io/wuu-workbench/projects/resume/) | [查看项目](projects/resume/) |
+| 个人工作台 | [打开展示页](https://ooooo-420.github.io/wuu-workbench/projects/personal/) | [查看项目](projects/personal/) |
 
 展示页免登录，仅提供合成交互示意，不连接私人工作台，不是完整产品的公开服务。
 

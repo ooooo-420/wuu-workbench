@@ -1,6 +1,6 @@
 # wuu 简历工作台
 
-[打开公开展示页](https://wuu-resume-workbench-showcase.peachy-horse-6031.chatgpt.site)
+[打开公开展示页](https://ooooo-420.github.io/wuu-workbench/projects/resume/)
 
 围绕真实使用需求设计：先理解作品，再对照岗位，保留具体分析动作；用知识库和版本历史，让下一次修改接着上一次往前走。
 

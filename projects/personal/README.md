@@ -1,6 +1,6 @@
 # wuu 个人工作台
 
-[打开公开展示页](https://wuu-personal-workbench-showcase.peachy-horse-6031.chatgpt.site)
+[打开公开展示页](https://ooooo-420.github.io/wuu-workbench/projects/personal/)
 
 将每日安排、实习投递、简历版本、项目与金融资讯集中管理。减少重复记录，让今天做什么、下一步跟进什么更清楚。
 
