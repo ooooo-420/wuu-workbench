@@ -1,4 +1,4 @@
-# wuu 个人工作台
+# wuu 个人中控台
 
 [打开公开展示页](https://ooooo-420.github.io/wuu-workbench/projects/personal/)
 
