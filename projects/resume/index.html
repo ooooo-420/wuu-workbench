@@ -1,4 +1,4 @@
-<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="description" content="吴桓的简历工作台项目展示：功能、设计取舍与合成交互演示。"><title>wuu 简历工作台 · 吴桓作品</title><link rel="canonical" href="https://ooooo-420.github.io/wuu-workbench/projects/resume/">
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="description" content="吴桓的简历制作台项目展示：功能、设计取舍与合成交互演示。"><title>wuu 简历制作台 · 吴桓作品</title><link rel="canonical" href="https://ooooo-420.github.io/wuu-workbench/projects/resume/">
 <style>
 /* Layout: compact hero, a demo guide, then a redraw of the real workbench. Outer page keeps the showcase palette; .wb uses public/styles.css tokens from the real app. */
 :root{--bg:#f2f0e8;--ink:#233d33;--line:#c9cec1;--paper:#fffef9;--accent:#3f6652;--on-accent:#fffef9;--muted:#5d6d62;--mono:"Cascadia Mono",ui-monospace,Consolas,monospace;--sans-o:system-ui,-apple-system,"Microsoft YaHei",sans-serif}
@@ -230,11 +230,11 @@ footer{border-top:1px solid var(--line);font-size:12px;color:var(--muted);displa
 <nav class="top"><strong>wuu.</strong><div><a href="#experience">交互示意</a><a href="#design">设计与实现</a><a href="https://github.com/ooooo-420/wuu-workbench">GitHub ↗</a></div></nav>
 <main class="page">
 <section class="hero"><div><p class="eyebrow-o">WU HUAN / PERSONAL PROJECT / 01</p><h1>把工作作品，<br>变成有据可查的<br>岗位表达。</h1></div><div><p class="lead">围绕真实使用需求设计：先理解作品，再对照岗位，保留具体分析动作；用知识库和版本历史，让下一次修改接着上一次往前走。</p><div class="links"><a class="cta" href="#experience">体验交互示意 ↓</a><a class="quiet" href="https://github.com/ooooo-420/wuu-workbench/tree/main/projects/resume">查看项目说明 ↗</a></div></div></section>
-<section id="experience" aria-label="简历工作台交互示意">
+<section id="experience" aria-label="简历制作台交互示意">
  <div class="guide" id="guide"></div>
  <div class="back" id="backstage"></div>
  <div class="wb" id="wb">
-  <aside class="side" aria-label="主导航"><div class="brand"><b>wuu<span>.</span></b><small>简历工作台</small></div><div id="nav" style="display:contents"></div><div class="side-foot"><strong>示例候选人</strong>合成资料，不连接本机服务</div></aside>
+  <aside class="side" aria-label="主导航"><div class="brand"><b>wuu<span>.</span></b><small>简历制作台</small></div><div id="nav" style="display:contents"></div><div class="side-foot"><strong>示例候选人</strong>合成资料，不连接本机服务</div></aside>
   <div class="vw" id="view"></div>
   <dialog id="dlg" aria-labelledby="dlg-t"><h3 id="dlg-t"></h3><p id="dlg-b"></p><div class="da"><button class="sec" data-act="dlgno">取消</button><button class="dang" data-act="dlgok">删除</button></div></dialog>
  </div>
@@ -245,7 +245,7 @@ footer{border-top:1px solid var(--line);font-size:12px;color:var(--muted);displa
 <section class="section two" id="design"><div class="copy"><p class="eyebrow-o">MY CONTRIBUTION / 我的贡献</p><h2 class="o">从个人需求，<br>到可持续使用的工具。</h2><p>定义金融与战略类岗位的证据要求、独立编写作品的归属规则、STAR和双语对齐原则；持续用实际修改稿反馈改进选材、检索与版本记忆。</p><p>项目由吴桓提出需求、设计规则并与AI协作实现。代码与文档包含AI辅助产出，不将其表述为全部手工独立开发。</p></div><div class="copy"><p class="eyebrow-o">HOW / 实现与取舍</p><h3 class="o">实现方式</h3><p>本机服务使用 Node.js、SQLite 与 Markdown Wiki，复用本机 Claude 与 Codex 登录调用在线模型：写作由 Claude 完成、Codex 备援，岗位检索与作品理解优先 Codex。文件监听负责同步，结构化输出负责生成，引用校验与版本快照负责追溯；Word/PDF 排版独立处理。</p><h3 class="o">公开展示的边界</h3><p>此页是独立的脱敏展示，不是私人工作台的在线副本。页面示例均为合成内容；不提供真实账户、原始报告或个人日程访问。功能说明基于本机项目，不能据此承诺招聘筛选或任务实际完成。</p></div></section>
 <section class="section two"><div><p class="eyebrow-o">REUSABLE / 可复用方法</p><h2 class="o">把使用经验，写成可导入的技能。</h2><p class="lead">三个 skill 分工协作。名称、方法和导入说明公开，个人资料保留在本机。</p></div><div><article class="skill"><a href="https://github.com/ooooo-420/wuu-workbench/tree/main/skills/jd-resume-local"><code>jd-resume-local ↗</code></a><h3 class="o">岗位定制简历</h3><p>拆解JD，将真实经历组织为有来源的中英文简历。</p></article><article class="skill"><a href="https://github.com/ooooo-420/wuu-workbench/tree/main/skills/career-wiki-curator"><code>career-wiki-curator ↗</code></a><h3 class="o">职业作品知识库</h3><p>从作品保留具体动作、方法、交付物和责任边界。</p></article><article class="skill"><a href="https://github.com/ooooo-420/wuu-workbench/tree/main/skills/resume-evidence-audit"><code>resume-evidence-audit ↗</code></a><h3 class="o">简历证据审查</h3><p>检查引用、金融岗位责任边界、文本结构与表述。</p></article></div></section>
 </main>
-<footer><span>吴桓 · wuu / 需求与产品设计，AI辅助实现</span><span><a href="https://ooooo-420.github.io/wuu-workbench/projects/personal/">另一个工作台 ↗</a>　<a href="https://github.com/ooooo-420/wuu-workbench">项目与技能仓库 ↗</a></span></footer>
+<footer><span>吴桓 · wuu / 需求与产品设计，AI辅助实现</span><span><a href="https://ooooo-420.github.io/wuu-workbench/projects/personal/">另一个项目 ↗</a>　<a href="https://github.com/ooooo-420/wuu-workbench">项目与技能仓库 ↗</a></span></footer>
 <script>
 (function(){
 var $=function(s){return document.querySelector(s)},$$=function(s){return[].slice.call(document.querySelectorAll(s))};
