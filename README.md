@@ -2,12 +2,12 @@
 
 吴桓的个人工具与职业证据方法。由本人提出需求、设计使用规则，与AI协作实现并持续迭代。
 
-## 两个工作台
+## 两个项目
 
 | 项目 | 公开展示 | 项目说明与演示代码 |
 | --- | --- | --- |
-| 简历工作台 | [打开展示页](https://ooooo-420.github.io/wuu-workbench/projects/resume/) | [查看项目](projects/resume/) |
-| 个人工作台 | [打开展示页](https://ooooo-420.github.io/wuu-workbench/projects/personal/) | [查看项目](projects/personal/) |
+| 简历制作台 | [打开展示页](https://ooooo-420.github.io/wuu-workbench/projects/resume/) | [查看项目](projects/resume/) |
+| 个人中控台 | [打开展示页](https://ooooo-420.github.io/wuu-workbench/projects/personal/) | [查看项目](projects/personal/) |
 
 展示页免登录，仅提供合成交互示意，不连接私人工作台，不是完整产品的公开服务。
 
