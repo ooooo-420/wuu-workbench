@@ -1,4 +1,4 @@
-# wuu 简历工作台
+# wuu 简历制作台
 
 [打开公开展示页](https://ooooo-420.github.io/wuu-workbench/projects/resume/)
 
